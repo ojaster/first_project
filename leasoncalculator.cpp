@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a,b,r,n;
+    float a,b,r;
+    int n;
     cout<<"n=";
     cin>>n;
     cout<<"a=";
@@ -10,9 +11,23 @@ int main(){
     cin>>b;
     switch(n){
         case 1:
-        n=1;
-        a+b=r;
-        cout<<"r="<<r<<endl;   
+            r = a+b;
+            cout<<"r="<<r<<endl;   
+            break;
+        case 2:
+            r = a-b;
+            cout<<"r="<<r<<endl;   
+            break;
+        case 3:
+            r = a/b;
+            cout<<"r="<<r<<endl;   
+            break;
+        case 4:
+            r = a*b;
+            cout<<"r="<<r<<endl;   
+            break;
+        default:
+        cout<<"ERROR"<<endl;
         
     }
 }
