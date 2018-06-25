@@ -1,6 +1,14 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp",
+        "ios": "cpp",
+        "fstream": "cpp",
+        "locale": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
