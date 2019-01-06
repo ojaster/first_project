@@ -2,6 +2,12 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "iosfwd": "cpp"
-    }
+        "iosfwd": "cpp",
+        "memory": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
