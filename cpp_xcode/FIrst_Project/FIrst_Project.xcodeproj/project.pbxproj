@@ -39,6 +39,8 @@
 		A54B281C21E0ABB400937AC7 /* erase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B281B21E0ABB400937AC7 /* erase.cpp */; };
 		A54B281E21E0AEF700937AC7 /* emptyLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B281D21E0AEF700937AC7 /* emptyLine.cpp */; };
 		A54B282021E0B16000937AC7 /* word_jambo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B281F21E0B16000937AC7 /* word_jambo.cpp */; };
+		A54B282221E2014F00937AC7 /* heroesInventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B282121E2014F00937AC7 /* heroesInventory.cpp */; };
+		A54B282421E207FE00937AC7 /* heroesInventory2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B282321E207FE00937AC7 /* heroesInventory2.cpp */; };
 		A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD2214431D9003FC212 /* nonDublicate.cpp */; };
 		A56ACFD52144351C003FC212 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD42144351C003FC212 /* market.cpp */; };
 		A56ACFD72144ED75003FC212 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD62144ED75003FC212 /* question.cpp */; };
@@ -189,6 +191,8 @@
 		A54B281B21E0ABB400937AC7 /* erase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = erase.cpp; sourceTree = "<group>"; };
 		A54B281D21E0AEF700937AC7 /* emptyLine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = emptyLine.cpp; sourceTree = "<group>"; };
 		A54B281F21E0B16000937AC7 /* word_jambo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = word_jambo.cpp; sourceTree = "<group>"; };
+		A54B282121E2014F00937AC7 /* heroesInventory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroesInventory.cpp; sourceTree = "<group>"; };
+		A54B282321E207FE00937AC7 /* heroesInventory2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroesInventory2.cpp; sourceTree = "<group>"; };
 		A56ACFD2214431D9003FC212 /* nonDublicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonDublicate.cpp; sourceTree = "<group>"; };
 		A56ACFD42144351C003FC212 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
 		A56ACFD62144ED75003FC212 /* question.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
@@ -480,6 +484,8 @@
 				A54B281B21E0ABB400937AC7 /* erase.cpp */,
 				A54B281D21E0AEF700937AC7 /* emptyLine.cpp */,
 				A54B281F21E0B16000937AC7 /* word_jambo.cpp */,
+				A54B282121E2014F00937AC7 /* heroesInventory.cpp */,
+				A54B282321E207FE00937AC7 /* heroesInventory2.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -609,6 +615,7 @@
 				A51B506521B2ECF500E739CD /* deleteletter.cpp in Sources */,
 				A56AD000215F90D2003FC212 /* inline.cpp in Sources */,
 				A51B506321AC644700E739CD /* BigSmallLetter.cpp in Sources */,
+				A54B282421E207FE00937AC7 /* heroesInventory2.cpp in Sources */,
 				A57444BB213F022C004836F1 /* all_in_one.cpp in Sources */,
 				A574446E213162C0004836F1 /* 2darray5.cpp in Sources */,
 				A574444521205036004836F1 /* operation_inc.cpp in Sources */,
@@ -625,6 +632,7 @@
 				A57444BF214377C3004836F1 /* claculate.cpp in Sources */,
 				A574446221297B16004836F1 /* point.cpp in Sources */,
 				A57444822132B799004836F1 /* min4numbers.cpp in Sources */,
+				A54B282221E2014F00937AC7 /* heroesInventory.cpp in Sources */,
 				A56AD00E21692679003FC212 /* circles.cpp in Sources */,
 				A574447221316B14004836F1 /* funkz2.cpp in Sources */,
 				A574449021345626004836F1 /* Fibonaci.cpp in Sources */,
