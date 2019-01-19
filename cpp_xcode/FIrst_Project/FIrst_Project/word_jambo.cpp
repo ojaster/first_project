@@ -49,9 +49,6 @@
 //    string guess;
 //    cout<<"\n\n your quess:";
 //    cin>>guess;
-//    for(int i=0; i<theWord.size(); i++){
-//        points++;
-//    }
 //    while((guess!= theWord) && (guess!="quit")) {
 //        if(guess == "hint"){ // guess == hint
 //            cout<<"Hint is:"<<theHint<<endl;
@@ -64,6 +61,7 @@
 //
 //    }
 //    if(guess == theWord){
+//        points += theWord.size();
 //        cout<<"You Win"<<endl;
 //    }
 //    cout<<"your points:"<<points<<endl;

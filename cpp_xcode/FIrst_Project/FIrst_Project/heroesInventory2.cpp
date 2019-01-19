@@ -18,12 +18,15 @@
 //    inventory.push_back("armor");
 //    inventory.push_back("shield");
 //
-//    vector<string>::iterator myIterator;
+//    //имея итератор можно получить доступ к значению элемента
+//    vector<string>::iterator myIterator;//итератор для вектора
+//    //Константный оператор представляет доступ к элементу в режиме "только для чтения"
 //    vector<string>::const_iterator iter;
 //
 //    cout<<"Your items:"<<endl;
-//    for(iter = inventory.begin(); iter != inventory.end(); iter++){
-//        cout<<*iter<<endl; // ->a
+//    //Перебор содержимого вектора
+//    for(iter = inventory.begin(); iter != inventory.end(); iter++){//begin() - возвращает итератор, указывающий на первый элемент контейнера
+//        cout<<*iter<<endl; // ->a  *- отображаем значение того элемента, на который ссылается итератор
 //    }
 //
 //    cout<<"You have "<<inventory.size()<<" items."<<endl;
@@ -33,8 +36,8 @@
 //    }
 //
 //    cout<<"You trade your sword for a battle axe."<<endl;
-//    myIterator=inventory.begin();
-//    *myIterator = "Battle axe";
+//    myIterator = inventory.begin();
+//    *myIterator = "Battle axe"; //Присовй значение Battle axe тому элементу, на который указывает итератор myterator
 //
 //    cout<<"Your items:"<<endl;
 //    for(iter = inventory.begin(); iter != inventory.end(); iter++){
@@ -42,8 +45,23 @@
 //    }
 //
 //    cout<<"The item name "<<*myIterator<<" has "<<(*myIterator).size()<<" letters in it"<<endl;
+//    cout<<"The item name "<<*myIterator<<" has "<<myIterator->size()<<" letters in it"<<endl;
 //    cout<<"Your shield has been destroyed in fierce battle"<<endl;
 //
+//    //добавим новый артефакт к снаряжению героя
+//    inventory.insert(inventory.begin(), "crossbow");//вставляем в самое начало
+//    cout<<"Your items:"<<endl;
+//    for(iter = inventory.begin(); iter != inventory.end(); iter++){
+//        cout<<*iter<<endl; // ->a
+//    }
+//    //erase() - удаляем элемент из снаряжения героя
+//    inventory.erase((inventory.begin() + 2));
+//    
+//    cout<<"Your items:"<<endl;
+//    for(iter = inventory.begin(); iter != inventory.end(); iter++){
+//        cout<<*iter<<endl; // ->a
+//    }
+//    
 //    inventory.pop_back();//удаляет из вектора последний элемент и уменьшает размер вектора на единицу
 //    cout<<"Your items:"<<endl;
 //    for(unsigned int i=0; i<inventory.size(); i++){
