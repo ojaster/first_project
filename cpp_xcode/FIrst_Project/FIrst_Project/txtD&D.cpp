@@ -677,33 +677,48 @@
 //        }
 //        center();
 //    }
+//    void profile(){
+//        cout<<"monster killed:"<<fraG<<endl;
+//        cout<<"armour:"<<heroArmour<<endl;
+//        cout<<"hero health:"<<heroHealth<<endl;
+//        cout<<"xp:"<<xp<<endl;
+//        center();
+//    }
 //        void center(){
 //        cout<<"do you wana go to the world or stay and watch inventory"<<endl;
+//            cout<<"2 watch profile"<<endl;
 //            cout<<"1 = stay and watch stats"<<endl;
 //            cout<<"0 = go and watch world"<<endl;
 //            cin>>choose;
-//
+//            if(choose==2){
+//                profile();
+//            }
 //        if(choose == 1){
 //            choose=0;
 //            cout<<"inventory button is 5"<<endl;
 //            cin>>choose;
 //            if(choose==5){
 //                inventeryWay();
+//            }else{
+//                center();
 //            }
-//        }else{
+//        }else if(choose==0){
 //            firstLocationMap();
 //            cout<<"stop watching = 3"<<endl;
 //            cin>>choose;
+//            if(choose==3){
+//                srand(time(NULL));
+//                fillMap();
+//                createMonstters();
+//                createArmour();
+//                createHero();
+//                displayMap();
+//                doStep();
+//            }else{
+//                center();
+//            }
 //        }
-//        if(choose==3){
-//            srand(time(NULL));
-//            fillMap();
-//            createMonstters();
-//            createArmour();
-//            createHero();
-//            displayMap();
-//            doStep();
-//        }
+//        
 //    }
 //    void firstLocationMap(){
 //
@@ -794,7 +809,7 @@
 //                }
 //            }
 //            void doStep(){
-//                while(heroHealth!=0){
+//                while(heroHealth!=0 && monster!=0){
 //                    cin>>flyRegistor;
 //                    switch(flyRegistor){
 //                        case 'w':
@@ -998,6 +1013,10 @@
 //                            }else{
 //                                cout<<"You can't make step"<<endl;
 //                            }
+//                        case 'g':
+//                            monster=0;
+//                            center();
+//                            break;
 //
 //
 //                    }

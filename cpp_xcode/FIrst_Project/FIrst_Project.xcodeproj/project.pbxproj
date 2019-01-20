@@ -48,6 +48,9 @@
 		A55CBFDD21EA56CC00344542 /* payment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFDC21EA56CC00344542 /* payment.cpp */; };
 		A55CBFDF21EB321B00344542 /* testvectorSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFDE21EB321B00344542 /* testvectorSize.cpp */; };
 		A55CBFE121EBA98E00344542 /* money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE021EBA98E00344542 /* money.cpp */; };
+		A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE221F35F6300344542 /* hangMan.cpp */; };
+		A55CBFE521F4707100344542 /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE421F4707100344542 /* string.cpp */; };
+		A55CBFE721F472C100344542 /* toupper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE621F472C100344542 /* toupper.cpp */; };
 		A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD2214431D9003FC212 /* nonDublicate.cpp */; };
 		A56ACFD52144351C003FC212 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD42144351C003FC212 /* market.cpp */; };
 		A56ACFD72144ED75003FC212 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD62144ED75003FC212 /* question.cpp */; };
@@ -207,6 +210,9 @@
 		A55CBFDC21EA56CC00344542 /* payment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = payment.cpp; sourceTree = "<group>"; };
 		A55CBFDE21EB321B00344542 /* testvectorSize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testvectorSize.cpp; sourceTree = "<group>"; };
 		A55CBFE021EBA98E00344542 /* money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = money.cpp; sourceTree = "<group>"; };
+		A55CBFE221F35F6300344542 /* hangMan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hangMan.cpp; sourceTree = "<group>"; };
+		A55CBFE421F4707100344542 /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
+		A55CBFE621F472C100344542 /* toupper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = toupper.cpp; sourceTree = "<group>"; };
 		A56ACFD2214431D9003FC212 /* nonDublicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonDublicate.cpp; sourceTree = "<group>"; };
 		A56ACFD42144351C003FC212 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
 		A56ACFD62144ED75003FC212 /* question.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
@@ -507,6 +513,9 @@
 				A55CBFDC21EA56CC00344542 /* payment.cpp */,
 				A55CBFDE21EB321B00344542 /* testvectorSize.cpp */,
 				A55CBFE021EBA98E00344542 /* money.cpp */,
+				A55CBFE221F35F6300344542 /* hangMan.cpp */,
+				A55CBFE421F4707100344542 /* string.cpp */,
+				A55CBFE621F472C100344542 /* toupper.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -625,6 +634,7 @@
 				A55CBFE121EBA98E00344542 /* money.cpp in Sources */,
 				A574446A2130539B004836F1 /* 2darray3.cpp in Sources */,
 				A56ACFE7214C1BDD003FC212 /* parrot.cpp in Sources */,
+				A55CBFE721F472C100344542 /* toupper.cpp in Sources */,
 				A574444E21233FF4004836F1 /* test2.cpp in Sources */,
 				A5CD0EAB21C2BA7F00D8047D /* mario.cpp in Sources */,
 				A57444542127115E004836F1 /* urovnenia.cpp in Sources */,
@@ -642,6 +652,7 @@
 				A57444BB213F022C004836F1 /* all_in_one.cpp in Sources */,
 				A574446E213162C0004836F1 /* 2darray5.cpp in Sources */,
 				A574444521205036004836F1 /* operation_inc.cpp in Sources */,
+				A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */,
 				A54B282621E4FDC300937AC7 /* high_scores.cpp in Sources */,
 				A574448C21345048004836F1 /* zadata309.cpp in Sources */,
 				A56AD00A21691C31003FC212 /* smallobj.cpp in Sources */,
@@ -703,6 +714,7 @@
 				A57444B9213DBE46004836F1 /* squared.cpp in Sources */,
 				A574443D21204B1F004836F1 /* sorting_word.cpp in Sources */,
 				A56AD006216132EC003FC212 /* const_arg.cpp in Sources */,
+				A55CBFE521F4707100344542 /* string.cpp in Sources */,
 				A54B281A21DF69DC00937AC7 /* spaceCraft.cpp in Sources */,
 				A54B281821D28B6F00937AC7 /* txtD&D.cpp in Sources */,
 				A574449421399F9E004836F1 /* massiveF.cpp in Sources */,

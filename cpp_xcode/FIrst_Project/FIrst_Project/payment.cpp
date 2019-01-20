@@ -102,7 +102,7 @@
 //        cout<<"enter your familia:";
 //        cin>>familia;
 //        cout<<"enter how much year are you working here"<<endl;
-//        Worker worker(name,(int)workers.size() + 1, id = (int)workers.size()+1);// id = (int)workers.size() + 1
+//        Worker worker(name,  (int)workers.size() + 1);// id = (int)workers.size() + 1
 //        workers.push_back(worker);
 //
 //        for(int i=0; i<3; i++){
@@ -171,9 +171,10 @@
 //        }
 //    }
 //    void nalogInfo(){
-//        cout<<"nalog is:"<<nalog<<"%"<<endl;
+//        cout<<"nalog is: 14%"<<endl;
 //        cout<<"1 % goes to the pensionij fond"<<endl;
 //        cout<<"13 % is podohodnij nalog"<<endl;
+//        inventory();
 //
 //    }
 //    void workerProfile(){
