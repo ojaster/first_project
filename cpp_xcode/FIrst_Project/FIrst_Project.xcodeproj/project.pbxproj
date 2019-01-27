@@ -51,6 +51,16 @@
 		A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE221F35F6300344542 /* hangMan.cpp */; };
 		A55CBFE521F4707100344542 /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE421F4707100344542 /* string.cpp */; };
 		A55CBFE721F472C100344542 /* toupper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE621F472C100344542 /* toupper.cpp */; };
+		A55CBFE921F63E9800344542 /* find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFE821F63E9800344542 /* find.cpp */; };
+		A55CBFEB21F7906F00344542 /* palindroma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFEA21F7906F00344542 /* palindroma.cpp */; };
+		A55CBFEF21F8DBDF00344542 /* favoriteGames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFEE21F8DBDF00344542 /* favoriteGames.cpp */; };
+		A55CBFF121FC7ED800344542 /* DieRoller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFF021FC7ED800344542 /* DieRoller.cpp */; };
+		A55CBFF321FC835800344542 /* instructions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFF221FC835800344542 /* instructions.cpp */; };
+		A55CBFF521FC857A00344542 /* YesORNo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFF421FC857A00344542 /* YesORNo.cpp */; };
+		A55CBFF721FC8B5100344542 /* scoping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFF621FC8B5100344542 /* scoping.cpp */; };
+		A55CBFF921FCCAAF00344542 /* woeker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFF821FCCAAF00344542 /* woeker.cpp */; };
+		A55CBFFB21FCD08E00344542 /* findLongest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFFA21FCD08E00344542 /* findLongest.cpp */; };
+		A55CBFFD21FCD37C00344542 /* dowhile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFFC21FCD37C00344542 /* dowhile.cpp */; };
 		A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD2214431D9003FC212 /* nonDublicate.cpp */; };
 		A56ACFD52144351C003FC212 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD42144351C003FC212 /* market.cpp */; };
 		A56ACFD72144ED75003FC212 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD62144ED75003FC212 /* question.cpp */; };
@@ -213,6 +223,16 @@
 		A55CBFE221F35F6300344542 /* hangMan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hangMan.cpp; sourceTree = "<group>"; };
 		A55CBFE421F4707100344542 /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
 		A55CBFE621F472C100344542 /* toupper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = toupper.cpp; sourceTree = "<group>"; };
+		A55CBFE821F63E9800344542 /* find.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = find.cpp; sourceTree = "<group>"; };
+		A55CBFEA21F7906F00344542 /* palindroma.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindroma.cpp; sourceTree = "<group>"; };
+		A55CBFEE21F8DBDF00344542 /* favoriteGames.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = favoriteGames.cpp; sourceTree = "<group>"; };
+		A55CBFF021FC7ED800344542 /* DieRoller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DieRoller.cpp; sourceTree = "<group>"; };
+		A55CBFF221FC835800344542 /* instructions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = instructions.cpp; sourceTree = "<group>"; };
+		A55CBFF421FC857A00344542 /* YesORNo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YesORNo.cpp; sourceTree = "<group>"; };
+		A55CBFF621FC8B5100344542 /* scoping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scoping.cpp; sourceTree = "<group>"; };
+		A55CBFF821FCCAAF00344542 /* woeker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = woeker.cpp; sourceTree = "<group>"; };
+		A55CBFFA21FCD08E00344542 /* findLongest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findLongest.cpp; sourceTree = "<group>"; };
+		A55CBFFC21FCD37C00344542 /* dowhile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dowhile.cpp; sourceTree = "<group>"; };
 		A56ACFD2214431D9003FC212 /* nonDublicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonDublicate.cpp; sourceTree = "<group>"; };
 		A56ACFD42144351C003FC212 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
 		A56ACFD62144ED75003FC212 /* question.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
@@ -516,6 +536,16 @@
 				A55CBFE221F35F6300344542 /* hangMan.cpp */,
 				A55CBFE421F4707100344542 /* string.cpp */,
 				A55CBFE621F472C100344542 /* toupper.cpp */,
+				A55CBFE821F63E9800344542 /* find.cpp */,
+				A55CBFEA21F7906F00344542 /* palindroma.cpp */,
+				A55CBFEE21F8DBDF00344542 /* favoriteGames.cpp */,
+				A55CBFF021FC7ED800344542 /* DieRoller.cpp */,
+				A55CBFF221FC835800344542 /* instructions.cpp */,
+				A55CBFF421FC857A00344542 /* YesORNo.cpp */,
+				A55CBFF621FC8B5100344542 /* scoping.cpp */,
+				A55CBFF821FCCAAF00344542 /* woeker.cpp */,
+				A55CBFFA21FCD08E00344542 /* findLongest.cpp */,
+				A55CBFFC21FCD37C00344542 /* dowhile.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -586,10 +616,12 @@
 				A574444721205141004836F1 /* compare_string.cpp in Sources */,
 				A51B507721C00DAA00E739CD /* sybez.cpp in Sources */,
 				A5B8FB86219890F2003A0976 /* statdata.cpp in Sources */,
+				A55CBFF921FCCAAF00344542 /* woeker.cpp in Sources */,
 				A57444A2213AFD6D004836F1 /* pasword.cpp in Sources */,
 				A574443B21204897004836F1 /* sorting.cpp in Sources */,
 				A51B506721B2F30B00E739CD /* sequences.cpp in Sources */,
 				A56ACFE3214C13D7003FC212 /* probel.cpp in Sources */,
+				A55CBFF521FC857A00344542 /* YesORNo.cpp in Sources */,
 				A56ACFF4215763AD003FC212 /* swap.cpp in Sources */,
 				A54B281C21E0ABB400937AC7 /* erase.cpp in Sources */,
 				A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */,
@@ -599,6 +631,7 @@
 				A51B506D21B3D1B700E739CD /* sstrass.cpp in Sources */,
 				A56ACFF82157A97B003FC212 /* strstr.cpp in Sources */,
 				A57444B2213BF9EB004836F1 /* Triangel.cpp in Sources */,
+				A55CBFF121FC7ED800344542 /* DieRoller.cpp in Sources */,
 				A56ACFDD2145639E003FC212 /* 360.cpp in Sources */,
 				A56ACFE5214C17F4003FC212 /* doktor_aj_bolit.cpp in Sources */,
 				A5B8FB8B2199E51D003A0976 /* boatFight.cpp in Sources */,
@@ -619,6 +652,7 @@
 				A5744499213A56BA004836F1 /* 2Find.cpp in Sources */,
 				A56ACFEE214FDD5D003FC212 /* Lucky_Unlucky.cpp in Sources */,
 				A51630C7218DE939001ED7EE /* employee.cpp in Sources */,
+				A55CBFFB21FCD08E00344542 /* findLongest.cpp in Sources */,
 				A54B282021E0B16000937AC7 /* word_jambo.cpp in Sources */,
 				A51B506F21B3D3BC00E739CD /* sstrio.cpp in Sources */,
 				A574445A21282822004836F1 /* sorting2.cpp in Sources */,
@@ -651,8 +685,10 @@
 				A54B282421E207FE00937AC7 /* heroesInventory2.cpp in Sources */,
 				A57444BB213F022C004836F1 /* all_in_one.cpp in Sources */,
 				A574446E213162C0004836F1 /* 2darray5.cpp in Sources */,
+				A55CBFE921F63E9800344542 /* find.cpp in Sources */,
 				A574444521205036004836F1 /* operation_inc.cpp in Sources */,
 				A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */,
+				A55CBFF321FC835800344542 /* instructions.cpp in Sources */,
 				A54B282621E4FDC300937AC7 /* high_scores.cpp in Sources */,
 				A574448C21345048004836F1 /* zadata309.cpp in Sources */,
 				A56AD00A21691C31003FC212 /* smallobj.cpp in Sources */,
@@ -662,6 +698,7 @@
 				A574445621271878004836F1 /* dif.cpp in Sources */,
 				A56ACFD921452A6E003FC212 /* joke22.cpp in Sources */,
 				A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */,
+				A55CBFF721FC8B5100344542 /* scoping.cpp in Sources */,
 				A5744464212981E7004836F1 /* dynamic.cpp in Sources */,
 				A57444AE213BF2AF004836F1 /* Average.cpp in Sources */,
 				A51B504321A0816400E739CD /* A.cpp in Sources */,
@@ -669,11 +706,13 @@
 				A55CBFDB21E90B9300344542 /* shop.cpp in Sources */,
 				A57444BF214377C3004836F1 /* claculate.cpp in Sources */,
 				A574446221297B16004836F1 /* point.cpp in Sources */,
+				A55CBFEF21F8DBDF00344542 /* favoriteGames.cpp in Sources */,
 				A57444822132B799004836F1 /* min4numbers.cpp in Sources */,
 				A54B282221E2014F00937AC7 /* heroesInventory.cpp in Sources */,
 				A56AD00E21692679003FC212 /* circles.cpp in Sources */,
 				A55CBFD921E7B3B900344542 /* bankAccount.cpp in Sources */,
 				A574447221316B14004836F1 /* funkz2.cpp in Sources */,
+				A55CBFEB21F7906F00344542 /* palindroma.cpp in Sources */,
 				A574449021345626004836F1 /* Fibonaci.cpp in Sources */,
 				A574445021249B0B004836F1 /* test3.cpp in Sources */,
 				A574447421316D71004836F1 /* funkz3.cpp in Sources */,
@@ -699,6 +738,7 @@
 				A56ACFD72144ED75003FC212 /* question.cpp in Sources */,
 				A574446821304CA0004836F1 /* 2darray2.cpp in Sources */,
 				A51B505F21AB19B500E739CD /* krestikinoliki.cpp in Sources */,
+				A55CBFFD21FCD37C00344542 /* dowhile.cpp in Sources */,
 				A5B8FB8921989506003A0976 /* constfu.cpp in Sources */,
 				A574447C2132B2A1004836F1 /* powerA3.cpp in Sources */,
 				A56AD01021692853003FC212 /* engobj.cpp in Sources */,
