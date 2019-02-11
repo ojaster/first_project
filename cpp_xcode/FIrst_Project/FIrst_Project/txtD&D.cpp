@@ -60,10 +60,13 @@
 //        int monsterDamage=0;
 //        //xp
 //        int xp=0;
-//        int lv=0;
+//        int lv=12;
+//        // all class stats
 //        int weaponDamage=0;
 //        int ArmourDefence=0;
 //        int choesDefence=0;
+//        int pantsDefend=0;
+//        int sum;
 //    public:
 //        void inventeryWay(){
 //            int inventory=0;
@@ -292,7 +295,15 @@
 //                cout<<"/  |   /  |"<<endl;
 //                cout<<"----   ----"<<endl;
 //                cout<<"Choes name: UnderLakopta"<<endl;
-//                cout<<"Defence: 0.5"<<endl;
+//                cout<<"Defence:"<<choesDefence<<endl;
+//            }else if(mageChoeType==2){
+//                cout<<"mage choes are hodki"<<endl;
+//                cout<<"|  |  |  |"<<endl;
+//                cout<<"|  |  |  |"<<endl;
+//                cout<<"|  |  |  |"<<endl;
+//                cout<<"----  ----"<<endl;
+//                cout<<"choes name not_your_thing"<<endl;
+//                cout<<"choes defence:"<<choesDefence<<endl;
 //            }
 //        }
 //        void magePants(){
@@ -303,7 +314,18 @@
 //                cout<<"|  |   |  |"<<endl;
 //                cout<<"|  |   |  |"<<endl;
 //                cout<<"name of pants: mage pants"<<endl;
-//                cout<<"Defence: 1"<<endl;
+//                cout<<"Defence:"<<pantsDefend<<endl;
+//            }else if(magePantsType==2){
+//                cout<<"mage pant are progreika"<<endl;
+//                cout<<" _  _     _  _ "<<endl;
+//                cout<<"|    |   |    |"<<endl;
+//                cout<<"|    |   |    |"<<endl;
+//                cout<<"|    |   |    |"<<endl;
+//                cout<<"|    |   |    |"<<endl;
+//                cout<<"|    |   |    |"<<endl;
+//                cout<<"|    |   |    |"<<endl;
+//                cout<<"pants name is : nezomerzaika"<<endl;
+//                cout<<"Defence:"<<pantsDefend<<endl;
 //            }
 //        }
 //        void mageArmour(){
@@ -316,7 +338,17 @@
 //            cout<<"|    |"<<endl;
 //            cout<<"|    |"<<endl;
 //            cout<<"mantia name: mantia lakopta"<<endl;
-//            cout<<"defend: 2"<<endl;
+//            cout<<"defend:"<<ArmourDefence<<endl;
+//            }else if(mageArmourType==2){
+//                cout<<" your armour is haldevag"<<endl;
+//                cout<<" _    _"<<endl;
+//                cout<<"{      }"<<endl;
+//                cout<<"|      |"<<endl;
+//                cout<<"|      |"<<endl;
+//                cout<<"|      |"<<endl;
+//                cout<<"|      |"<<endl;
+//                cout<<"haldevag name is: horns"<<endl;
+//                cout<<"defend:"<<ArmourDefence<<endl;
 //            }
 //        }
 //        void wandStats(){
@@ -330,9 +362,24 @@
 //                cout<<endl;
 //                cout<<"Wand name: Holy water Wand"<<endl;
 //                cout<<"Power = 1"<<endl;
-//                cout<<"Damage = 2"<<endl;
+//                cout<<"Damage = "<<weaponDamage<<endl;
 //                cout<<"Element Water"<<endl;
 //                cout<<"Passive power: double your damage if you fight with demon"<<endl;
+//            }else if(wandType==2){
+//                cout<<"your weapon is a powerful wand "<<endl;
+//                cout<<endl;
+//                cout<<"  _"<<endl;
+//                cout<<"  *"<<endl;
+//                cout<<"  -"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"wand name: crusher"<<endl;
+//                cout<<"power = 3"<<endl;
+//                cout<<"Damage = "<<weaponDamage<<endl;
+//                cout<<"element dark"<<endl;
+//
 //            }
 //
 //        }
@@ -448,8 +495,19 @@
 //                cout<<"Shield name: Wooden"<<endl;
 //                cout<<"Axe name Wooden killer"<<endl;
 //                cout<<"Shield Def:2"<<endl;
-//                cout<<"axe Damage:5"<<endl;
+//                cout<<"axe Damage:"<<weaponDamage<<endl;
 //                cout<<"axe Passive power: hits slowly"<<endl;
+//            }else if(wariorWeapon==2){
+//                cout<<" your sword name is sharpy"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"|---|"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"sharpy name is: notyourSword"<<endl;
+//                cout<<"sharpy damage:"<<weaponDamage<<endl;
+//
 //            }
 //        }
 //        void warriorArmour(){
@@ -461,7 +519,17 @@
 //                cout<<"  |____|____| "<<endl;
 //                cout<<" |           |"<<endl;
 //                cout<<"Your armoour name is: men from steel"<<endl;
-//                cout<<"defence: 3.5"<<endl;
+//                cout<<"defence:"<<ArmourDefence<<endl;
+//            }else if(warriorArmourType==2){
+//                cout<<"your armour is bronka"<<endl;
+//                cout<<" ________"<<endl;
+//                cout<<"|        |"<<endl;
+//                cout<<"|        |"<<endl;
+//                cout<<"|        |"<<endl;
+//                cout<<"|        |"<<endl;
+//                cout<<" --------"<<endl;
+//                cout<<"your armour name is: square"<<endl;
+//                cout<<"defence:"<<ArmourDefence<<endl;
 //            }
 //        }
 //        void warriorPants(){
@@ -472,18 +540,35 @@
 //                cout<<"  |___|  |___|"<<endl;
 //                cout<<"  |___|  |___|"<<endl;
 //                cout<<"Your pants name is: cold Winter"<<endl;
-//                cout<<"Defence: 2"<<endl;
+//                cout<<"Defence:"<<pantsDefend<<endl;
+//            }else if(warriorPantsType==2){
+//                cout<<"your Pants are hibara"<<endl;
+//                cout<<"|  |  |  |"<<endl;
+//                cout<<"| _|  | _|"<<endl;
+//                cout<<"|_ |  |_ |"<<endl;
+//                cout<<"| _|  | _|"<<endl;
+//                cout<<"Your pants name is: galavfa"<<endl;
+//                cout<<"defence:"<<pantsDefend<<endl;
 //            }
 //        }
 //        void warriorChoes(){
-//            if(warriorPantsType==1){
+//            if(warriorChoesType==1){
 //                cout<<"your Pants are shashka"<<endl;
 //                cout<<"  [   ]  [   ]"<<endl;
 //                cout<<"  |   |  |   |"<<endl;
 //                cout<<" _|___| _|___|"<<endl;
 //                cout<<"(_____|(_____|"<<endl;
 //                cout<<"Choes name is:  cold winter colection"<<endl;
-//                cout<<"Defence: 1.5"<<endl;
+//                cout<<"Defence:"<<choesDefence<<endl;
+//            }else if(warriorChoesType==2){
+//                cout<<"your choes are skorohod"<<endl;
+//                cout<<" |  |   |   |"<<endl;
+//                cout<<" |  |   |   |"<<endl;
+//                cout<<" |  |   |   |"<<endl;
+//                cout<<"_|_ |  _|_  |"<<endl;
+//                cout<<"|___|  |____|"<<endl;
+//                cout<<"choes name is: bistro"<<endl;
+//                cout<<"defence:"<<choesDefence<<endl;
 //            }
 //        }
 //        //warrior end
@@ -732,9 +817,12 @@
 //            cout<<"Very well"<<endl;
 //            if(Class==1){
 //                //Mage
+//                //all clases stats
 //                weaponDamage=2;
 //                ArmourDefence=2;
+//                pantsDefend=1;
 //                choesDefence=1;
+//                //all clases stats end
 //                wandType=1;
 //                mageArmourType=1;
 //                magePantsType=1;
@@ -753,11 +841,17 @@
 //            }
 //            if(Class==2){
 //                //war
+//                pantsDefend=2;
+//                choesDefence=2;
+//                weaponDamage=5;
+//                ArmourDefence=4;
+//
 //                warriorArmourType=1;
 //                wariorWeapon=1;
 //                warriorPantsType=1;
 //                warriorChoesType=1;
 //                wariorWeapons();
+//
 //                cout<<endl;
 //            }
 //            if(Class==3){
@@ -770,7 +864,7 @@
 //                cout<<endl;
 //            }
 //            int sum;
-//            sum=ArmourDefence+choesDefence;
+//            sum=ArmourDefence+choesDefence+pantsDefend;
 //            heroArmour=sum+heroArmour;
 //            center();
 //        }
@@ -780,6 +874,7 @@
 //            cout<<"armour:"<<heroArmour<<endl;
 //            cout<<"hero health:"<<heroHealth<<endl;
 //            cout<<"xp:"<<xp<<endl;
+//            cout<<"lv:"<<lv<<endl;
 //            center();
 //        }
 //            void center(){
@@ -816,6 +911,8 @@
 //                cin>>choose;
 //                if(choose==3){
 //                    srand(time(NULL));
+//                    sum=choesDefence+pantsDefend+ArmourDefence;
+//                    heroArmour=sum;
 //                    fillMap();
 //                    createMonstters();
 //                    createArmour();
@@ -833,56 +930,157 @@
 //        void levelup(){
 //            while(lv!=0){
 //            cout<<"what you want level up"<<endl;
-//            cout<<"lv up choose"<<endl;
-//            cout<<"1 = weapon"<<endl;
-//            cout<<"2 = armour"<<endl;
-//            cout<<"3 = pants"<<endl;
-//            cout<<"4 = choes"<<endl;
+//                if(Class==1){
+//                    //class 1 start
+//            //weapon mage
 //            if(choose==1){
 //                lv=lv-1;
 //                weaponDamage=weaponDamage+1;
 //                cout<<endl;
-//                cout<<"Inventory"<<endl;
 //                cout<<"1 = weapon"<<endl;
 //                cout<<"2 = armour"<<endl;
 //                cout<<"3 = pants"<<endl;
 //                cout<<"4 = choes"<<endl;
+//                if(weaponDamage==12){
+//                       weaponDamage=weaponDamage+weaponDamage;
+//                        cout<<"you opened new wand"<<endl;
+//                    wandType=wandType+1;
+//                    wandStats();
+//                }
 //            }
+//            //pants mage
 //            if(choose==3){
+//                pantsDefend=pantsDefend+1;
 //                lv=lv-1;
 //                cout<<endl;
-//                cout<<"Inventory"<<endl;
 //                cout<<"1 = weapon"<<endl;
 //                cout<<"2 = armour"<<endl;
 //                cout<<"3 = pants"<<endl;
 //                cout<<"4 = choes"<<endl;
+//                if(pantsDefend==12){
+//                    pantsDefend=pantsDefend+pantsDefend;
+//                    cout<<"you opened new pants"<<endl;
+//                    magePantsType=magePantsType+1;
+//                    magePants();
+//                }
+//
 //            }
+//            //armour mage
 //            if(choose==2){
 //                ArmourDefence=ArmourDefence+1;
 //                lv=lv-1;
 //                cout<<endl;
-//                cout<<"Inventory"<<endl;
 //                cout<<"1 = weapon"<<endl;
 //                cout<<"2 = armour"<<endl;
 //                cout<<"3 = pants"<<endl;
 //                cout<<"4 = choes"<<endl;
+//                if(ArmourDefence==10){
+//                    ArmourDefence=ArmourDefence+ArmourDefence;
+//                    cout<<"you opened new wand"<<endl;
+//                    mageArmourType=mageArmourType+1;
+//                    mageArmour();
+//                }
 //            }
+//            //choes mage
 //            if(choose==4){
 //                choesDefence=choesDefence+1;
 //                lv=lv-1;
 //                cout<<endl;
-//                cout<<"Inventory"<<endl;
 //                cout<<"1 = weapon"<<endl;
 //                cout<<"2 = armour"<<endl;
 //                cout<<"3 = pants"<<endl;
 //                cout<<"4 = choes"<<endl;
+//                if(choesDefence==10){
+//                    choesDefence=choesDefence+choesDefence;
+//                    cout<<"you opened new choes"<<endl;
+//                    mageChoeType=mageChoeType+1;
+//                    mageChoes();
+//                }
 //            }
+//
 //            do{
 //                cin>>choose;
 //            }while(choose>4 || choose<0);
 //            if(choose==0){
 //                break;
 //            }
+//                }//class 1 end
+//
+//                if(Class==2){
+//                    //class 2 start
+//                    //weapon warrior
+//                    if(choose==1){
+//                        lv=lv-1;
+//                        weaponDamage=weaponDamage+1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(weaponDamage==13){
+//                            weaponDamage=weaponDamage+weaponDamage;
+//                            cout<<"you opened new weapon"<<endl;
+//                            wariorWeapon=wariorWeapon+1;
+//                            wariorWeapons();
+//                        }
+//                    }
+//                    //pants warrior
+//                    if(choose==3){
+//                        pantsDefend=pantsDefend+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(pantsDefend==12){
+//                            pantsDefend=pantsDefend+pantsDefend;
+//                            cout<<"you opened new pants"<<endl;
+//                            warriorPantsType=warriorPantsType+1;
+//                            warriorPants();
+//                        }
+//
+//                    }
+//                    //armour warrior
+//                    if(choose==2){
+//                        ArmourDefence=ArmourDefence+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(ArmourDefence==13){
+//                            ArmourDefence=ArmourDefence+ArmourDefence;
+//                            cout<<"you opened new armour"<<endl;
+//                            warriorArmourType=warriorArmourType+1;
+//                            warriorArmour();
+//                        }
+//                    }
+//                    //choes warrior
+//                    if(choose==4){
+//                        choesDefence=choesDefence+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(choesDefence==10){
+//                            choesDefence=choesDefence+choesDefence;
+//                            cout<<"you opened new choes"<<endl;
+//                            warriorChoesType=warriorChoesType+1;
+//                            warriorChoes();
+//                        }
+//                    }
+//
+//                    do{
+//                        cin>>choose;
+//                    }while(choose>4 || choose<0);
+//                    if(choose==0){
+//                        break;
+//                    }
+//                }//class 2 end
 //            }
 //            center();
 //        }

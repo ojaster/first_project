@@ -61,6 +61,17 @@
 		A55CBFF921FCCAAF00344542 /* woeker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFF821FCCAAF00344542 /* woeker.cpp */; };
 		A55CBFFB21FCD08E00344542 /* findLongest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFFA21FCD08E00344542 /* findLongest.cpp */; };
 		A55CBFFD21FCD37C00344542 /* dowhile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFFC21FCD37C00344542 /* dowhile.cpp */; };
+		A55CC0002205EB0100344542 /* Give_Me_A_Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFFE2205EB0100344542 /* Give_Me_A_Number.cpp */; };
+		A55CC0022205EE8600344542 /* triple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC0012205EE8600344542 /* triple.cpp */; };
+		A55CC0042205F06000344542 /* taken_Damage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC0032205F06000344542 /* taken_Damage.cpp */; };
+		A55CC0062205F39700344542 /* mad_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC0052205F39700344542 /* mad_lib.cpp */; };
+		A55CC00822060EBB00344542 /* newHangman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC00722060EBB00344542 /* newHangman.cpp */; };
+		A55CC00A2206F38300344542 /* task3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC0092206F38300344542 /* task3.cpp */; };
+		A55CC00C2206F75E00344542 /* referencing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC00B2206F75E00344542 /* referencing.cpp */; };
+		A55CC00E220EC88E00344542 /* goodBAdSwap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC00D220EC88E00344542 /* goodBAdSwap.cpp */; };
+		A55CC010220ECA2D00344542 /* inventory_inventory_displayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC00F220ECA2D00344542 /* inventory_inventory_displayer.cpp */; };
+		A55CC012220ECE7D00344542 /* inventoryReferencer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC011220ECE7D00344542 /* inventoryReferencer.cpp */; };
+		A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC013220ED40800344542 /* TicTocTic.cpp */; };
 		A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD2214431D9003FC212 /* nonDublicate.cpp */; };
 		A56ACFD52144351C003FC212 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD42144351C003FC212 /* market.cpp */; };
 		A56ACFD72144ED75003FC212 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD62144ED75003FC212 /* question.cpp */; };
@@ -233,6 +244,17 @@
 		A55CBFF821FCCAAF00344542 /* woeker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = woeker.cpp; sourceTree = "<group>"; };
 		A55CBFFA21FCD08E00344542 /* findLongest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findLongest.cpp; sourceTree = "<group>"; };
 		A55CBFFC21FCD37C00344542 /* dowhile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dowhile.cpp; sourceTree = "<group>"; };
+		A55CBFFE2205EB0100344542 /* Give_Me_A_Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Give_Me_A_Number.cpp; sourceTree = "<group>"; };
+		A55CC0012205EE8600344542 /* triple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triple.cpp; sourceTree = "<group>"; };
+		A55CC0032205F06000344542 /* taken_Damage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = taken_Damage.cpp; sourceTree = "<group>"; };
+		A55CC0052205F39700344542 /* mad_lib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mad_lib.cpp; sourceTree = "<group>"; };
+		A55CC00722060EBB00344542 /* newHangman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = newHangman.cpp; sourceTree = "<group>"; };
+		A55CC0092206F38300344542 /* task3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = task3.cpp; sourceTree = "<group>"; };
+		A55CC00B2206F75E00344542 /* referencing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referencing.cpp; sourceTree = "<group>"; };
+		A55CC00D220EC88E00344542 /* goodBAdSwap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = goodBAdSwap.cpp; sourceTree = "<group>"; };
+		A55CC00F220ECA2D00344542 /* inventory_inventory_displayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inventory_inventory_displayer.cpp; sourceTree = "<group>"; };
+		A55CC011220ECE7D00344542 /* inventoryReferencer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inventoryReferencer.cpp; sourceTree = "<group>"; };
+		A55CC013220ED40800344542 /* TicTocTic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicTocTic.cpp; sourceTree = "<group>"; };
 		A56ACFD2214431D9003FC212 /* nonDublicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonDublicate.cpp; sourceTree = "<group>"; };
 		A56ACFD42144351C003FC212 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
 		A56ACFD62144ED75003FC212 /* question.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
@@ -546,6 +568,17 @@
 				A55CBFF821FCCAAF00344542 /* woeker.cpp */,
 				A55CBFFA21FCD08E00344542 /* findLongest.cpp */,
 				A55CBFFC21FCD37C00344542 /* dowhile.cpp */,
+				A55CBFFE2205EB0100344542 /* Give_Me_A_Number.cpp */,
+				A55CC0012205EE8600344542 /* triple.cpp */,
+				A55CC0032205F06000344542 /* taken_Damage.cpp */,
+				A55CC0052205F39700344542 /* mad_lib.cpp */,
+				A55CC00722060EBB00344542 /* newHangman.cpp */,
+				A55CC0092206F38300344542 /* task3.cpp */,
+				A55CC00B2206F75E00344542 /* referencing.cpp */,
+				A55CC00D220EC88E00344542 /* goodBAdSwap.cpp */,
+				A55CC00F220ECA2D00344542 /* inventory_inventory_displayer.cpp */,
+				A55CC011220ECE7D00344542 /* inventoryReferencer.cpp */,
+				A55CC013220ED40800344542 /* TicTocTic.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -635,6 +668,7 @@
 				A56ACFDD2145639E003FC212 /* 360.cpp in Sources */,
 				A56ACFE5214C17F4003FC212 /* doktor_aj_bolit.cpp in Sources */,
 				A5B8FB8B2199E51D003A0976 /* boatFight.cpp in Sources */,
+				A55CC00E220EC88E00344542 /* goodBAdSwap.cpp in Sources */,
 				A56ACFEC214D68C0003FC212 /* minNetu.cpp in Sources */,
 				A574445821271C27004836F1 /* pro.cpp in Sources */,
 				A51B505321A6FD4C00E739CD /* hideAndSeek.cpp in Sources */,
@@ -678,7 +712,9 @@
 				A56ACFFE215F8AF2003FC212 /* overeng.cpp in Sources */,
 				A56AD00421612F13003FC212 /* static.cpp in Sources */,
 				A574443321204484004836F1 /* main.cpp in Sources */,
+				A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */,
 				A574445E212833BD004836F1 /* dvoicnaia.cpp in Sources */,
+				A55CC00C2206F75E00344542 /* referencing.cpp in Sources */,
 				A51B506521B2ECF500E739CD /* deleteletter.cpp in Sources */,
 				A56AD000215F90D2003FC212 /* inline.cpp in Sources */,
 				A51B506321AC644700E739CD /* BigSmallLetter.cpp in Sources */,
@@ -687,6 +723,7 @@
 				A574446E213162C0004836F1 /* 2darray5.cpp in Sources */,
 				A55CBFE921F63E9800344542 /* find.cpp in Sources */,
 				A574444521205036004836F1 /* operation_inc.cpp in Sources */,
+				A55CC00A2206F38300344542 /* task3.cpp in Sources */,
 				A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */,
 				A55CBFF321FC835800344542 /* instructions.cpp in Sources */,
 				A54B282621E4FDC300937AC7 /* high_scores.cpp in Sources */,
@@ -699,8 +736,10 @@
 				A56ACFD921452A6E003FC212 /* joke22.cpp in Sources */,
 				A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */,
 				A55CBFF721FC8B5100344542 /* scoping.cpp in Sources */,
+				A55CC012220ECE7D00344542 /* inventoryReferencer.cpp in Sources */,
 				A5744464212981E7004836F1 /* dynamic.cpp in Sources */,
 				A57444AE213BF2AF004836F1 /* Average.cpp in Sources */,
+				A55CC010220ECA2D00344542 /* inventory_inventory_displayer.cpp in Sources */,
 				A51B504321A0816400E739CD /* A.cpp in Sources */,
 				A54B282821E66CAA00937AC7 /* date.cpp in Sources */,
 				A55CBFDB21E90B9300344542 /* shop.cpp in Sources */,
@@ -708,10 +747,12 @@
 				A574446221297B16004836F1 /* point.cpp in Sources */,
 				A55CBFEF21F8DBDF00344542 /* favoriteGames.cpp in Sources */,
 				A57444822132B799004836F1 /* min4numbers.cpp in Sources */,
+				A55CC0002205EB0100344542 /* Give_Me_A_Number.cpp in Sources */,
 				A54B282221E2014F00937AC7 /* heroesInventory.cpp in Sources */,
 				A56AD00E21692679003FC212 /* circles.cpp in Sources */,
 				A55CBFD921E7B3B900344542 /* bankAccount.cpp in Sources */,
 				A574447221316B14004836F1 /* funkz2.cpp in Sources */,
+				A55CC0062205F39700344542 /* mad_lib.cpp in Sources */,
 				A55CBFEB21F7906F00344542 /* palindroma.cpp in Sources */,
 				A574449021345626004836F1 /* Fibonaci.cpp in Sources */,
 				A574445021249B0B004836F1 /* test3.cpp in Sources */,
@@ -737,8 +778,10 @@
 				A574447021316931004836F1 /* funkz.cpp in Sources */,
 				A56ACFD72144ED75003FC212 /* question.cpp in Sources */,
 				A574446821304CA0004836F1 /* 2darray2.cpp in Sources */,
+				A55CC0022205EE8600344542 /* triple.cpp in Sources */,
 				A51B505F21AB19B500E739CD /* krestikinoliki.cpp in Sources */,
 				A55CBFFD21FCD37C00344542 /* dowhile.cpp in Sources */,
+				A55CC0042205F06000344542 /* taken_Damage.cpp in Sources */,
 				A5B8FB8921989506003A0976 /* constfu.cpp in Sources */,
 				A574447C2132B2A1004836F1 /* powerA3.cpp in Sources */,
 				A56AD01021692853003FC212 /* engobj.cpp in Sources */,
@@ -754,6 +797,7 @@
 				A57444B9213DBE46004836F1 /* squared.cpp in Sources */,
 				A574443D21204B1F004836F1 /* sorting_word.cpp in Sources */,
 				A56AD006216132EC003FC212 /* const_arg.cpp in Sources */,
+				A55CC00822060EBB00344542 /* newHangman.cpp in Sources */,
 				A55CBFE521F4707100344542 /* string.cpp in Sources */,
 				A54B281A21DF69DC00937AC7 /* spaceCraft.cpp in Sources */,
 				A54B281821D28B6F00937AC7 /* txtD&D.cpp in Sources */,
