@@ -124,8 +124,11 @@ char winner(const vector<char> & board){
         int index0 = WINNINGS_ROWS[row][0]; // 0  3 6
         int index1 = WINNINGS_ROWS[row][1]; // 1  4 7
         int index2 = WINNINGS_ROWS[row][2]; // 2  5 8
-        if((board[index0] != EMPTY) && (board[index0] == board[index1]) && (board[index1] == board[index2])){
+        
+        if((board[index0] != EMPTY)){
+        if(  (board[index0] == board[index1]) && (board[index1] == board[index2])){
             return board[index0];
+        }
         }
     }
     //так как победитель не определился,  проверяем, не наступила ли ничья
@@ -155,16 +158,19 @@ int humanMove(const vector<char> & board, char human){
 }
 
 int computerMove2(vector<char>board, char computer){
+   
     bool found=false;
     unsigned int move=0;
     //если компьютер может выиграть следующим ходом то он делает этот ход
     while(!found && move<board.size()){
         if(isLegal(board, move)){
             board[move]=computer;
+            cout<<"winner board"<<endl;
             if(winner(board) == computer){
-                cout<<"1 "<<move<<endl;
+                cout<<"1 strategy"<<endl;
                 found=true;
             }
+            board[move]=EMPTY;
         }
         if(found==false){
             move++;
@@ -178,10 +184,11 @@ int computerMove2(vector<char>board, char computer){
             if(isLegal(board, move)){
                 board[move]=human;
                 if(winner(board) == human){
-                    cout<<"2"<<endl;
+                    cout<<"2 strategy"<<endl;
                     found=true;
-                    board[move]=EMPTY;
+                   
                 }
+                board[move]=EMPTY;
             }
             if(found==false){
                 move++;
@@ -195,7 +202,7 @@ int computerMove2(vector<char>board, char computer){
          while(!found && i<board.size()){
              move = bestMoves[i];
              if(isLegal(board, move)){
-                 cout<<"3"<<endl;
+                 cout<<"3 strategy"<<endl;
                  found=true;
              }
              i++;
