@@ -58,6 +58,7 @@
 //        int monsterHealth=5;
 //        int mageTurns=0;
 //        int monsterDamage=0;
+//        int monsterHealthMax=monsterHealth;
 //        //xp
 //        int xp=0;
 //        int lv=12;
@@ -422,6 +423,7 @@
 //        }
 //        //Necromance
 //        void necromanceChoes(){
+//            if(necromanceChoesType==1){
 //            cout<<"Your Necromance Choes are vecnelsc"<<endl;
 //            cout<<"   (  )  (  )"<<endl;
 //            cout<<"   |  |  |  |"<<endl;
@@ -431,9 +433,20 @@
 //            cout<<"----  |---- |"<<endl;
 //            cout<<"------|-----|"<<endl;
 //            cout<<"bahilis name: saunahodki"<<endl;
-//            cout<<"defend: 1"<<endl;
+//            cout<<"defend: "<<choesDefence<<endl;
+//            }else if(necromanceChoesType==2){
+//                cout<<"your choes are bakalavr"<<endl;
+//                cout<<"     _| |_    _| |_"<<endl;
+//                cout<<"    _|   |_  _|   |_"<<endl;
+//                cout<<"    | | | |  | | | |"<<endl;
+//                cout<<"    __| |_   __| |_"<<endl;
+//                cout<<"   /______| /______|"<<endl;
+//                cout<<"bakalvr name is: polatka"<<endl;
+//                cout<<"defence:"<<choesDefence<<endl;
+//            }
 //        }
 //        void necromancePants(){
+//            if(necromancePantsType==1){
 //            cout<<"Your pants are vacnelsc"<<endl;
 //            cout<<"(  )  (  )"<<endl;
 //            cout<<"#  #  #  #"<<endl;
@@ -441,9 +454,23 @@
 //            cout<<"|  |  |  |"<<endl;
 //            cout<<"|  |  |  |"<<endl;
 //            cout<<"vecnelsc name: monilatir"<<endl;
-//            cout<<"Defence: 1.5"<<endl;
+//            cout<<"Defence: "<<pantsDefend<<endl;
+//            }else if(necromancePantsType==2){
+//                cout<<"pants are bolohon"<<endl;
+//                cout<<"      |   |"<<endl;
+//                cout<<"     |     |"<<endl;
+//                cout<<"    |       |"<<endl;
+//                cout<<"   |         |"<<endl;
+//                cout<<"  |           |"<<endl;
+//                cout<<" |             |"<<endl;
+//                cout<<"|               |"<<endl;
+//                cout<<"bolohon name is: bodun"<<endl;
+//                cout<<"defend: "<<pantsDefend<<endl;
+//
+//            }
 //        }
 //        void necromanceArmour(){
+//            if(necromanceArmourType==1){
 //            cout<<"Your Armour is norday"<<endl;
 //            cout<<"    ________"<<endl;
 //            cout<<"  (          )"<<endl;
@@ -453,8 +480,19 @@
 //            cout<<"  |          |"<<endl;
 //            cout<<"  |          |"<<endl;
 //            cout<<"  narday name: LRing "<<endl;
-//            cout<<"Defence:0"<<endl;
+//            cout<<"Defence:"<<ArmourDefence<<endl;
 //            cout<<"Power up Summon powers"<<endl;
+//            }else if(necromanceArmourType==2){
+//                cout<<"your armour is gavanda"<<endl;
+//                cout<<"  _| |_"<<endl;
+//                cout<<" |     |"<<endl;
+//                cout<<"<       >"<<endl;
+//                cout<<" |     |"<<endl;
+//                cout<<" |     |"<<endl;
+//                cout<<" |_   _|"<<endl;
+//                cout<<"gavanda name is: fraug"<<endl;
+//                cout<<"defence:"<<ArmourDefence<<endl;
+//            }
 //
 //
 //        }
@@ -470,10 +508,25 @@
 //                cout<<" | "<<endl;
 //                cout<<"Stick name: One person power"<<endl;
 //                cout<<"Summon power: 1-3"<<endl;
-//                cout<<"Damage = 0.5"<<endl;
-//                cout<<"summoned persons Demon,Baby Dragon zombi, elf"<<endl;
+//                cout<<"Damage = "<<weaponDamage<<endl;
+//                cout<<"summoned persons Demon,Baby Dragon,zombi, elf"<<endl;
 //                cout<<"Persons Damage: 1-5 "<<endl;
 //                cout<<"persons Defence: 3-7"<<endl;
+//            }else if(necromanWeaponType==2){
+//                cout<<"your weapon is onelife"<<endl;
+//                cout<<" |"<<endl;
+//                cout<<"-*-"<<endl;
+//                cout<<" |"<<endl;
+//                cout<<" |"<<endl;
+//                cout<<" |"<<endl;
+//                cout<<" |"<<endl;
+//                cout<<" |"<<endl;
+//                cout<<"onelife name is liver"<<endl;
+//                cout<<"Summon power: 3-6"<<endl;
+//                cout<<"Damage = "<<weaponDamage<<endl;
+//                cout<<"summoned persons Demon,Baby Dragon,zombi, elf, goblin, lord, lord demon, dragon"<<endl;
+//                cout<<"Persons Damage: 12-34 "<<endl;
+//                cout<<"persons Defence: 22-45"<<endl;
 //            }
 //        }
 //        //Necromance end
@@ -583,8 +636,19 @@
 //                cout<<"-|-"<<endl;
 //                cout<<" |"<<endl;
 //                cout<<"your Weapon name is: fork"<<endl;
-//                cout<<"fork Damage:2"<<endl;
+//                cout<<"fork Damage:"<<weaponDamage<<endl;
 //                cout<<"passive power:very fast and light"<<endl;
+//            }else if(knightWeapon==2){
+//                cout<<"your weapon is a melner"<<endl;
+//                cout<<"|-)"<<endl;
+//                cout<<"|"<<endl;
+//                cout<<"|"<<endl;
+//                cout<<"|"<<endl;
+//                cout<<"|"<<endl;
+//                cout<<"|"<<endl;
+//                cout<<"|"<<endl;
+//                cout<<"melner name is: dr"<<endl;
+//                cout<<"melner Damage:"<<weaponDamage<<endl;
 //            }
 //        }
 //        void knightArmour(){
@@ -596,7 +660,24 @@
 //                cout<<"|       |"<<endl;
 //                cout<<" |     |"<<endl;
 //                cout<<"your armour name is: fakazil"<<endl;
-//                cout<<"Armour defence:2"<<endl;
+//                cout<<"Armour defence:"<<ArmourDefence<<endl;
+//            }else if(knightArmourType==2){
+//                cout<<"you armour is fageray"<<endl;
+//                cout<<"<__ __>"<<endl;
+//                cout<<"  | |"<<endl;
+//                cout<<" |   |"<<endl;
+//                cout<<"|     |"<<endl;
+//                cout<<"your fageray name is: flyer"<<endl;
+//                cout<<"defence:"<<ArmourDefence<<endl;
+//
+//            }else if(knightArmourType==3){
+//                cout<<"your armour is watcher"<<endl;
+//                cout<<"(_-_ _-_)"<<endl;
+//                cout<<" |-   -|"<<endl;
+//                cout<<" | ___ |"<<endl;
+//                cout<<" | ||| |"<<endl;
+//                cout<<"your watcher name is: watcher"<<endl;
+//                cout<<"defend:"<<ArmourDefence<<endl;
 //            }
 //
 //        }
@@ -609,7 +690,26 @@
 //                cout<<" |___| |___|"<<endl;
 //                cout<<" |   | |   |"<<endl;
 //                cout<<"Your choes name is: laft"<<endl;
-//                cout<<"choes defence:2"<<endl;
+//                cout<<"choes defence:"<<pantsDefend<<endl;
+//            }else if(knightPantsType==2){
+//                cout<<"your pants are podguznik"<<endl;
+//                cout<<"(|||||)  (|||||)"<<endl;
+//                cout<<" (|||)    (|||)"<<endl;
+//                cout<<"  (|)      (|)"<<endl;
+//                cout<<"  | |      | | "<<endl;
+//                cout<<"your podguznik name is: folar"<<endl;
+//                cout<<"pants defend:"<<pantsDefend<<endl;
+//            }else if(knightPantsType==3){
+//                cout<<"your pants are borduk"<<endl;
+//                cout<<" | |  | |"<<endl;
+//                cout<<"(   )(   )"<<endl;
+//                cout<<"|   ||   |"<<endl;
+//                cout<<"|   ||   |"<<endl;
+//                cout<<"|   ||   |"<<endl;
+//                cout<<"(   )(   )"<<endl;
+//                cout<<" | |  | |" <<endl;
+//                cout<<"your pants name is: pontaloni"<<endl;
+//                cout<<"defend:"<<pantsDefend<<endl;
 //            }
 //        }
 //        void knightChoes(){
@@ -621,7 +721,22 @@
 //            cout<<" |___| |___|"<<endl;
 //            cout<<"|    ||    |"<<endl;
 //            cout<<"Your choes name is: botz"<<endl;
-//            cout<<"choes defence:1"<<endl;
+//            cout<<"choes defence:"<<choesDefence<<endl;
+//            }else if(knightChoesType==2){
+//                cout<<"your choes are podguznik"<<endl;
+//                cout<<"  (|||)  (|||)"<<endl;
+//                cout<<" __(|)  __(|)"<<endl;
+//                cout<<"|___|) |___|)"<<endl;
+//                cout<<"your choes name is Fuagra"<<endl;
+//                cout<<"defend:"<<choesDefence<<endl;
+//            }else if(knightChoesType==3){
+//                cout<<"your choes are bozilik"
+//                cout<<"     _||_       _||_"<<endl;
+//                cout<<"    _|  |_     _|  |_"<<endl;
+//                cout<<"   _|    |_   _|    |_"<<endl;
+//                cout<<" _ |      |_ _|      |_"<<endl;
+//                cout<<"your choes name are xrenoten"<<endl;
+//                cout<<"defend"<<choesDefence<<endl;
 //            }
 //        }
 //        //knight end
@@ -646,7 +761,7 @@
 //                        cout<<"your xp:"<<xp<<endl;
 //                        cout<<"your level:"<<lv<<endl;
 //                    }
-//                    if(wandType==1){
+//                    //if(wandType==1){
 //                        if(fightChoose==2){
 //                            cout<<"        *"<<endl;
 //                            cout<<"   ( )  |"<<endl;
@@ -700,12 +815,12 @@
 //                            cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
 //
 //                    }
-//                    }
+//                    //}
 //                    if(heroHealth==0){
 //                        break;
 //                    }
 //
-//                }
+//                }//class 1 end
 //
 //                if(Class == 2){
 //                    cout<<"1 : Attack"<<endl;
@@ -724,7 +839,7 @@
 //                        cout<<"your xp:"<<xp<<endl;
 //                    }
 //
-//                    if(wariorWeapon==1){
+//                 //   if(wariorWeapon==1){
 //                        if(fightChoose==2){
 //                            cout<<"        *"<<endl;
 //                            cout<<"   ( )  |"<<endl;
@@ -774,12 +889,187 @@
 //                            cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
 //
 //                        }
+//                    if(heroHealth==0){
+//                            break;
+//                        }
+//                   // }
+//                }//class 2 end
+//                if(Class == 3){
+//                    cout<<"1 : Attack"<<endl;
+//                    cout<<"2 : Heal"<<endl;
+//                    cout<<"3 : Left From fight"<<endl;
+//                    cout<<"4 : Show hero stats"<<endl;
+//                    cin>>fightChoose;
+//                    if(fightChoose==3){
+//                        displayMap();
+//                        doStep();
+//                    }
+//                    if(fightChoose==4){
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//                        cout<<"your xp:"<<xp<<endl;
 //                    }
 //
-//                }
-//                if(heroHealth==0){
-//                    break;
-//                }
+//                    //   if(wariorWeapon==1){
+//                    if(fightChoose==2){
+//                        cout<<"        *"<<endl;
+//                        cout<<"   ( )  |"<<endl;
+//                        cout<<"    | /-|"<<endl;
+//                        cout<<" ___|/  |"<<endl;
+//                        cout<<"    |"<<endl;
+//                        cout<<"   _|_"<<endl;
+//                        cout<<"  /  |"<<endl;
+//                        cout<<" /   |"<<endl;
+//                        cout<<"/    |"<<endl;
+//                        mageTurns++;
+//                        heroHealth=heroHealth+2;
+//                        heroHealth--;
+//                        cout<<"1 : Attack"<<endl;
+//                        cout<<"3 : Left From fight"<<endl;
+//                        do{
+//                            cin>>fightChoose;
+//                        }while(fightChoose==2 || fightChoose==4);
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//                    }
+//                    if(fightChoose== 1){
+//                        cout<<"        *"<<endl;
+//                        cout<<"   ( )  |"<<endl;
+//                        cout<<"    | /-|"<<endl;
+//                        cout<<" ___|/  |"<<endl;
+//                        cout<<"    |"<<endl;
+//                        cout<<"   _|_"<<endl;
+//                        cout<<"  /  |"<<endl;
+//                        cout<<" /   |"<<endl;
+//                        cout<<"/    |"<<endl;
+//                        mageTurns++;
+//                        monsterHealth=monsterHealth-weaponDamage;
+//                        if(heroArmour>0){
+//                            heroArmour--;
+//                        }else{
+//                            heroHealth--;
+//                        }
+//                        if(monsterHealth<=0){
+//                            fraG++;
+//                            monster--;
+//                            xp=xp+5000;
+//                        }
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//
+//                    }
+//                    if(heroHealth==0){
+//                        break;
+//                    }
+//
+//                }//class 3 end
+//
+//                if(Class == 4){
+//                    cout<<"1 : Attack"<<endl;
+//                    cout<<"2 : Heal"<<endl;
+//                    cout<<"3 : Left From fight"<<endl;
+//                    cout<<"4 : Show hero stats"<<endl;
+//                    cout<<"5 : summon your guy"<<endl;
+//                    cin>>fightChoose;
+//                    if(fightChoose==3){
+//                        displayMap();
+//                        doStep();
+//                    }
+//                    if(fightChoose==4){
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//                        cout<<"your xp:"<<xp<<endl;
+//                    }
+//
+//                    //   if(wariorWeapon==1){
+//                    if(fightChoose==2){
+//                        cout<<"        *"<<endl;
+//                        cout<<"   ( )  |"<<endl;
+//                        cout<<"    | /-|"<<endl;
+//                        cout<<" ___|/  |"<<endl;
+//                        cout<<"    |"<<endl;
+//                        cout<<"   _|_"<<endl;
+//                        cout<<"  /  |"<<endl;
+//                        cout<<" /   |"<<endl;
+//                        cout<<"/    |"<<endl;
+//                        mageTurns++;
+//                        heroHealth=heroHealth+2;
+//                        heroHealth--;
+//                        cout<<"1 : Attack"<<endl;
+//                        cout<<"3 : Left From fight"<<endl;
+//                        do{
+//                            cin>>fightChoose;
+//                        }while(fightChoose==2 || fightChoose==4);
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//                    }
+//                    if(fightChoose== 1){
+//                        cout<<"        *"<<endl;
+//                        cout<<"   ( )  |"<<endl;
+//                        cout<<"    | /-|"<<endl;
+//                        cout<<" ___|/  |"<<endl;
+//                        cout<<"    |"<<endl;
+//                        cout<<"   _|_"<<endl;
+//                        cout<<"  /  |"<<endl;
+//                        cout<<" /   |"<<endl;
+//                        cout<<"/    |"<<endl;
+//                        mageTurns++;
+//                        monsterHealth=monsterHealth-weaponDamage;
+//                        if(heroArmour>0){
+//                            heroArmour--;
+//                        }else{
+//                            heroHealth--;
+//                        }
+//                        if(monsterHealth<=0){
+//                            fraG++;
+//                            monster--;
+//                            xp=xp+5000;
+//                        }
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//
+//                    }
+//                    if(fightChoose== 5){
+//                        cout<<"   ||____||"<<endl;
+//                        cout<<"   ||*  *||"<<endl;
+//                        cout<<"    { || }"<<endl;
+//                        cout<<"      ""  "<<endl;
+//                        cout<<"    |----|"<<endl;
+//                        cout<<"      ||"<<endl;
+//                        cout<<"      ||"<<endl;
+//                        cout<<"______||_______"<<endl;
+//                        cout<<"------||-------"<<endl;
+//                        mageTurns++;
+//                        monsterHealth=monsterHealth-15;
+//                        if(heroArmour>0){
+//                            heroArmour--;
+//                        }else{
+//                            heroHealth--;
+//                        }
+//                        if(monsterHealth<=0){
+//                            fraG++;
+//                            monster--;
+//                            xp=xp+5000;
+//                        }
+//                        cout<<"Your Health Left:"<<heroHealth<<endl;
+//                        cout<<"Your Armour Left:"<<heroArmour<<endl;
+//                        cout<<"Your Monster Health Left:"<<monsterHealth<<endl;
+//
+//                    }
+//                    if(heroHealth==0){
+//                        break;
+//                    }
+//
+//                }//class 4 end
+//
+//
+//
 //            }//while
 //            if(monsterHealth==0){
 //                cout<<"you killed monseter"<<endl;
@@ -832,6 +1122,11 @@
 //            }
 //            if(Class==4){
 //                //Nec
+//                weaponDamage=1;
+//                pantsDefend=2;
+//                ArmourDefence=2;
+//                choesDefence=1;
+//
 //                necromanceArmourType=1;
 //                necromancePantsType=1;
 //                necromanWeaponType=1;
@@ -856,6 +1151,11 @@
 //            }
 //            if(Class==3){
 //                //Kni
+//                weaponDamage=2;
+//                ArmourDefence=2;
+//                pantsDefend=2;
+//                choesDefence=1;
+//
 //                knightWeapon=1;
 //                knightChoesType=1;
 //                knightPantsType=1;
@@ -944,6 +1244,7 @@
 //                if(weaponDamage==12){
 //                       weaponDamage=weaponDamage+weaponDamage;
 //                        cout<<"you opened new wand"<<endl;
+//                     monsterHealth=monsterHealth+5;
 //                    wandType=wandType+1;
 //                    wandStats();
 //                }
@@ -960,6 +1261,7 @@
 //                if(pantsDefend==12){
 //                    pantsDefend=pantsDefend+pantsDefend;
 //                    cout<<"you opened new pants"<<endl;
+//                     monsterHealth=monsterHealth+5;
 //                    magePantsType=magePantsType+1;
 //                    magePants();
 //                }
@@ -977,6 +1279,7 @@
 //                if(ArmourDefence==10){
 //                    ArmourDefence=ArmourDefence+ArmourDefence;
 //                    cout<<"you opened new wand"<<endl;
+//                     monsterHealth=monsterHealth+5;
 //                    mageArmourType=mageArmourType+1;
 //                    mageArmour();
 //                }
@@ -993,6 +1296,7 @@
 //                if(choesDefence==10){
 //                    choesDefence=choesDefence+choesDefence;
 //                    cout<<"you opened new choes"<<endl;
+//                     monsterHealth=monsterHealth+5;
 //                    mageChoeType=mageChoeType+1;
 //                    mageChoes();
 //                }
@@ -1020,6 +1324,8 @@
 //                        if(weaponDamage==13){
 //                            weaponDamage=weaponDamage+weaponDamage;
 //                            cout<<"you opened new weapon"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
 //                            wariorWeapon=wariorWeapon+1;
 //                            wariorWeapons();
 //                        }
@@ -1036,6 +1342,8 @@
 //                        if(pantsDefend==12){
 //                            pantsDefend=pantsDefend+pantsDefend;
 //                            cout<<"you opened new pants"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
 //                            warriorPantsType=warriorPantsType+1;
 //                            warriorPants();
 //                        }
@@ -1053,6 +1361,8 @@
 //                        if(ArmourDefence==13){
 //                            ArmourDefence=ArmourDefence+ArmourDefence;
 //                            cout<<"you opened new armour"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
 //                            warriorArmourType=warriorArmourType+1;
 //                            warriorArmour();
 //                        }
@@ -1069,6 +1379,8 @@
 //                        if(choesDefence==10){
 //                            choesDefence=choesDefence+choesDefence;
 //                            cout<<"you opened new choes"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
 //                            warriorChoesType=warriorChoesType+1;
 //                            warriorChoes();
 //                        }
@@ -1081,6 +1393,172 @@
 //                        break;
 //                    }
 //                }//class 2 end
+//                if(Class==3){
+//                    //class 3 start
+//                    //weapon knight
+//                    if(choose==1){
+//                        lv=lv-1;
+//                        weaponDamage=weaponDamage+1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(weaponDamage==10){
+//                            weaponDamage=weaponDamage+weaponDamage;
+//                            cout<<"you opened new weapon"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            knightWeapon=knightWeapon+1;
+//                            knightWeapons();
+//                        }
+//                    }
+//                   // pants warrior
+//                    if(choose==3){
+//                        pantsDefend=pantsDefend+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(pantsDefend==12){
+//                            pantsDefend=pantsDefend+pantsDefend;
+//                            cout<<"you opened new pants"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            knightPantsType=knightPantsType+1;
+//                            knightPants();
+//                        }
+//
+//                    }
+//                    //armour knight
+//                    if(choose==2){
+//                        ArmourDefence=ArmourDefence+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(ArmourDefence==11){
+//                            ArmourDefence=ArmourDefence+ArmourDefence;
+//                            cout<<"you opened new armour"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            knightArmourType=knightArmourType+1;
+//                            knightArmour();
+//                        }
+//                    }
+//                    //choes knight
+//                    if(choose==4){
+//                        choesDefence=choesDefence+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(choesDefence==10){
+//                            choesDefence=choesDefence+choesDefence;
+//                            cout<<"you opened new choes"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            knightChoesType=knightChoesType+1;
+//                            knightChoes();
+//                        }
+//                    }
+//
+//                    do{
+//                        cin>>choose;
+//                    }while(choose>4 || choose<0);
+//                    if(choose==0){
+//                        break;
+//                    }
+//                }//class 3 end
+//                if(Class==4){
+//                    //class 4 start
+//                    //weapon necromance
+//                    if(choose==1){
+//                        lv=lv-1;
+//                        weaponDamage=weaponDamage+1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(weaponDamage==10){
+//                            weaponDamage=weaponDamage+weaponDamage;
+//                            cout<<"you opened new weapon"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            necromanWeaponType=necromanWeaponType+1;
+//                            NecromanceWeapons();
+//                        }
+//                    }
+//                    // pants necromance
+//                    if(choose==3){
+//                        pantsDefend=pantsDefend+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(pantsDefend==12){
+//                            pantsDefend=pantsDefend+pantsDefend;
+//                            cout<<"you opened new pants"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            necromancePantsType=necromancePantsType+1;
+//                            necromancePants();
+//                        }
+//
+//                    }
+//                    //armour necromance
+//                    if(choose==2){
+//                        ArmourDefence=ArmourDefence+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(ArmourDefence==11){
+//                            ArmourDefence=ArmourDefence+ArmourDefence;
+//                            cout<<"you opened new armour"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            necromanceArmourType=necromanceArmourType+1;
+//                            necromanceArmour();
+//                        }
+//                    }
+//                    //choes necromance
+//                    if(choose==4){
+//                        choesDefence=choesDefence+1;
+//                        lv=lv-1;
+//                        cout<<endl;
+//                        cout<<"1 = weapon"<<endl;
+//                        cout<<"2 = armour"<<endl;
+//                        cout<<"3 = pants"<<endl;
+//                        cout<<"4 = choes"<<endl;
+//                        if(choesDefence==10){
+//                            choesDefence=choesDefence+choesDefence;
+//                            cout<<"you opened new choes"<<endl;
+//                             monsterHealth=monsterHealth+5;
+//                            monsterHealthMax=monsterHealth;
+//                            necromanceChoesType=necromanceChoesType+1;
+//                            necromanceChoes();
+//                        }
+//                    }
+//
+//                    do{
+//                        cin>>choose;
+//                    }while(choose>4 || choose<0);
+//                    if(choose==0){
+//                        break;
+//                    }
+//                }//class 4 end
 //            }
 //            center();
 //        }
@@ -1185,7 +1663,7 @@
 //                                    }
 //                                    bool res=checkMonsters(x-1,y);
 //                                    if(res==true && heroArmour>0){
-//                                        monsterHealth=5;
+//                                         monsterHealth=monsterHealthMax;
 //                                        fight();
 //                                        if(heroHealth<=0){
 //                                            cout<<"Game Over!!"<<endl;
@@ -1199,7 +1677,7 @@
 //                                        }
 //
 //                                    }else if(res==true){
-//                                        monsterHealth=5;
+//                                         monsterHealth=monsterHealthMax;
 //                                        fight();
 //                                        if(heroHealth<=0){
 //                                            cout<<"Game Over!!"<<endl;
@@ -1230,7 +1708,7 @@
 //                                    }
 //                                    bool res=checkMonsters(x,y-1);
 //                                     if(res==true && heroArmour>0){
-//                                         monsterHealth=5;
+//                                          monsterHealth=monsterHealthMax;
 //                                         fight();
 //                                         if(heroHealth<=0){
 //                                             cout<<"Game Over!!"<<endl;
@@ -1246,7 +1724,7 @@
 //
 //
 //                                     }else if(res==true){
-//                                         monsterHealth=5;
+//                                          monsterHealth=monsterHealthMax;
 //                                         fight();
 //
 //                                         if(heroHealth<=0){
@@ -1282,7 +1760,7 @@
 //                                        }
 //                                    bool res=checkMonsters(x+1,y);
 //                                     if(res==true && heroArmour>0){
-//                                         monsterHealth=5;
+//                                          monsterHealth=monsterHealthMax;
 //                                         fight();
 //
 //                                        if(heroHealth<=0){
@@ -1299,7 +1777,7 @@
 //
 //
 //                                     }else if(res==true){
-//                                         monsterHealth=5;
+//                                          monsterHealth=monsterHealthMax;
 //                                         fight();
 //                                            if(heroHealth<=0){
 //                                         cout<<"Game Over!!"<<endl;
@@ -1331,7 +1809,7 @@
 //                                            }
 //                                    bool res=checkMonsters(x,y+1);
 //                                     if(res==true && heroArmour>0){
-//                                         monsterHealth=5;
+//                                         monsterHealth=monsterHealthMax;
 //                                         fight();
 //                                         if(heroHealth<=0){
 //                                             cout<<"Game Over!!"<<endl;
@@ -1351,7 +1829,7 @@
 //    //                                         fraG++;
 //
 //                                    }else if(res==true){
-//                                        monsterHealth=5;
+//                                         monsterHealth=monsterHealthMax;
 //                                        fight();
 //                                        if(heroHealth<=0){
 //                                            cout<<"Game Over!!"<<endl;

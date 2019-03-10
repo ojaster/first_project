@@ -174,6 +174,20 @@
 		A5CF9D6522180BC400B393BE /* wwer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D6422180BC400B393BE /* wwer.cpp */; };
 		A5CF9D67221961E700B393BE /* pointing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D66221961E700B393BE /* pointing.cpp */; };
 		A5CF9D6A221968AB00B393BE /* pointing2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D68221968AB00B393BE /* pointing2.cpp */; };
+		A5CF9D6C2229A09100B393BE /* swapPointerVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D6B2229A09100B393BE /* swapPointerVersion.cpp */; };
+		A5CF9D6E2229A42800B393BE /* heroesIventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D6D2229A42800B393BE /* heroesIventory.cpp */; };
+		A5CF9D702229AA4A00B393BE /* arrayPArser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D6F2229AA4A00B393BE /* arrayPArser.cpp */; };
+		A5CF9D76222BEDA900B393BE /* **string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D75222BEDA900B393BE /* **string.cpp */; };
+		A5CF9D78222BF00D00B393BE /* &&&a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D77222BF00D00B393BE /* &&&a.cpp */; };
+		A5CF9D7A222BF1ED00B393BE /* simpleCritter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D79222BF1ED00B393BE /* simpleCritter.cpp */; };
+		A5CF9D7C222BF70900B393BE /* simpleCritter2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D7B222BF70900B393BE /* simpleCritter2.cpp */; };
+		A5CF9D7E223034CC00B393BE /* privateCritter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D7D223034CC00B393BE /* privateCritter.cpp */; };
+		A5CF9D8022303CD400B393BE /* Critter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D7F22303CD400B393BE /* Critter.cpp */; };
+		A5CF9D8222318AE300B393BE /* critter_farm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8122318AE300B393BE /* critter_farm.cpp */; };
+		A5CF9D842232E59300B393BE /* zooShop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D832232E59300B393BE /* zooShop.cpp */; };
+		A5CF9D862234313800B393BE /* friendCritter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D852234313800B393BE /* friendCritter.cpp */; };
+		A5CF9D8822343BDF00B393BE /* latinAlphabet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8722343BDF00B393BE /* latinAlphabet.cpp */; };
+		A5CF9D8A2235834900B393BE /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D892235834900B393BE /* heap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -361,6 +375,20 @@
 		A5CF9D6422180BC400B393BE /* wwer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wwer.cpp; sourceTree = "<group>"; };
 		A5CF9D66221961E700B393BE /* pointing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointing.cpp; sourceTree = "<group>"; };
 		A5CF9D68221968AB00B393BE /* pointing2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointing2.cpp; sourceTree = "<group>"; };
+		A5CF9D6B2229A09100B393BE /* swapPointerVersion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapPointerVersion.cpp; sourceTree = "<group>"; };
+		A5CF9D6D2229A42800B393BE /* heroesIventory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroesIventory.cpp; sourceTree = "<group>"; };
+		A5CF9D6F2229AA4A00B393BE /* arrayPArser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrayPArser.cpp; sourceTree = "<group>"; };
+		A5CF9D75222BEDA900B393BE /* **string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "**string.cpp"; sourceTree = "<group>"; };
+		A5CF9D77222BF00D00B393BE /* &&&a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "&&&a.cpp"; sourceTree = "<group>"; };
+		A5CF9D79222BF1ED00B393BE /* simpleCritter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simpleCritter.cpp; sourceTree = "<group>"; };
+		A5CF9D7B222BF70900B393BE /* simpleCritter2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simpleCritter2.cpp; sourceTree = "<group>"; };
+		A5CF9D7D223034CC00B393BE /* privateCritter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = privateCritter.cpp; sourceTree = "<group>"; };
+		A5CF9D7F22303CD400B393BE /* Critter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Critter.cpp; sourceTree = "<group>"; };
+		A5CF9D8122318AE300B393BE /* critter_farm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = critter_farm.cpp; sourceTree = "<group>"; };
+		A5CF9D832232E59300B393BE /* zooShop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zooShop.cpp; sourceTree = "<group>"; };
+		A5CF9D852234313800B393BE /* friendCritter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = friendCritter.cpp; sourceTree = "<group>"; };
+		A5CF9D8722343BDF00B393BE /* latinAlphabet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = latinAlphabet.cpp; sourceTree = "<group>"; };
+		A5CF9D892235834900B393BE /* heap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -563,8 +591,8 @@
 				A55CBFE021EBA98E00344542 /* money.cpp */,
 				A55CBFE221F35F6300344542 /* hangMan.cpp */,
 				A55CBFE421F4707100344542 /* string.cpp */,
-				A55CBFE621F472C100344542 /* toupper.cpp */,
 				A55CBFE821F63E9800344542 /* find.cpp */,
+				A55CBFE621F472C100344542 /* toupper.cpp */,
 				A55CBFEA21F7906F00344542 /* palindroma.cpp */,
 				A55CBFEE21F8DBDF00344542 /* favoriteGames.cpp */,
 				A55CBFF021FC7ED800344542 /* DieRoller.cpp */,
@@ -587,7 +615,21 @@
 				A55CC013220ED40800344542 /* TicTocTic.cpp */,
 				A5CF9D6422180BC400B393BE /* wwer.cpp */,
 				A5CF9D68221968AB00B393BE /* pointing2.cpp */,
+				A5CF9D6B2229A09100B393BE /* swapPointerVersion.cpp */,
+				A5CF9D6D2229A42800B393BE /* heroesIventory.cpp */,
 				A5CF9D66221961E700B393BE /* pointing.cpp */,
+				A5CF9D6F2229AA4A00B393BE /* arrayPArser.cpp */,
+				A5CF9D75222BEDA900B393BE /* **string.cpp */,
+				A5CF9D77222BF00D00B393BE /* &&&a.cpp */,
+				A5CF9D79222BF1ED00B393BE /* simpleCritter.cpp */,
+				A5CF9D7B222BF70900B393BE /* simpleCritter2.cpp */,
+				A5CF9D7D223034CC00B393BE /* privateCritter.cpp */,
+				A5CF9D7F22303CD400B393BE /* Critter.cpp */,
+				A5CF9D8122318AE300B393BE /* critter_farm.cpp */,
+				A5CF9D832232E59300B393BE /* zooShop.cpp */,
+				A5CF9D852234313800B393BE /* friendCritter.cpp */,
+				A5CF9D8722343BDF00B393BE /* latinAlphabet.cpp */,
+				A5CF9D892235834900B393BE /* heap.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -664,12 +706,14 @@
 				A574443B21204897004836F1 /* sorting.cpp in Sources */,
 				A51B506721B2F30B00E739CD /* sequences.cpp in Sources */,
 				A56ACFE3214C13D7003FC212 /* probel.cpp in Sources */,
+				A5CF9D8822343BDF00B393BE /* latinAlphabet.cpp in Sources */,
 				A55CBFF521FC857A00344542 /* YesORNo.cpp in Sources */,
 				A56ACFF4215763AD003FC212 /* swap.cpp in Sources */,
 				A54B281C21E0ABB400937AC7 /* erase.cpp in Sources */,
 				A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */,
 				A51B504A21A0916A00E739CD /* Bank.cpp in Sources */,
 				A574447A2131AA9A004836F1 /* funkz6.cpp in Sources */,
+				A5CF9D7A222BF1ED00B393BE /* simpleCritter.cpp in Sources */,
 				A574445221270E31004836F1 /* test4.cpp in Sources */,
 				A51B506D21B3D1B700E739CD /* sstrass.cpp in Sources */,
 				A56ACFF82157A97B003FC212 /* strstr.cpp in Sources */,
@@ -686,12 +730,16 @@
 				A51630CD219076FE001ED7EE /* employeeClass.cpp in Sources */,
 				A51B506B21B3CC2B00E739CD /* stringCopy.cpp in Sources */,
 				A57444A6213BE47B004836F1 /* smile3.cpp in Sources */,
+				A5CF9D6E2229A42800B393BE /* heroesIventory.cpp in Sources */,
 				A55CBFDD21EA56CC00344542 /* payment.cpp in Sources */,
+				A5CF9D76222BEDA900B393BE /* **string.cpp in Sources */,
+				A5CF9D8022303CD400B393BE /* Critter.cpp in Sources */,
 				A5CF9D67221961E700B393BE /* pointing.cpp in Sources */,
 				A574449C213A9DC8004836F1 /* name.cpp in Sources */,
 				A57444BD2142EAEC004836F1 /* printLongWordTXT.cpp in Sources */,
 				A56ACFDB2145317F003FC212 /* shuffle.cpp in Sources */,
 				A51B505021A300FD00E739CD /* ship.cpp in Sources */,
+				A5CF9D7C222BF70900B393BE /* simpleCritter2.cpp in Sources */,
 				A5744466213047CA004836F1 /* 2darray.cpp in Sources */,
 				A5744449212052B5004836F1 /* test.cpp in Sources */,
 				A5744499213A56BA004836F1 /* 2Find.cpp in Sources */,
@@ -726,6 +774,7 @@
 				A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */,
 				A574445E212833BD004836F1 /* dvoicnaia.cpp in Sources */,
 				A55CC00C2206F75E00344542 /* referencing.cpp in Sources */,
+				A5CF9D702229AA4A00B393BE /* arrayPArser.cpp in Sources */,
 				A51B506521B2ECF500E739CD /* deleteletter.cpp in Sources */,
 				A56AD000215F90D2003FC212 /* inline.cpp in Sources */,
 				A51B506321AC644700E739CD /* BigSmallLetter.cpp in Sources */,
@@ -773,9 +822,11 @@
 				A574447621318E57004836F1 /* funkz4.cpp in Sources */,
 				A56ACFFA215A9054003FC212 /* Minus6.cpp in Sources */,
 				A56ACFD52144351C003FC212 /* market.cpp in Sources */,
+				A5CF9D7E223034CC00B393BE /* privateCritter.cpp in Sources */,
 				A574448E2134543C004836F1 /* zadata310.cpp in Sources */,
 				A574449221399D34004836F1 /* proc6.cpp in Sources */,
 				A56AD008216138BC003FC212 /* times.cpp in Sources */,
+				A5CF9D8A2235834900B393BE /* heap.cpp in Sources */,
 				A56ACFDF214568FC003FC212 /* hello_olleh.cpp in Sources */,
 				A57444B0213BF713004836F1 /* golden_ratio.cpp in Sources */,
 				A57444AA213BE713004836F1 /* Happy.cpp in Sources */,
@@ -784,6 +835,7 @@
 				A574444121204DC8004836F1 /* copy.cpp in Sources */,
 				A574445C21282C86004836F1 /* delitel.cpp in Sources */,
 				A54B281E21E0AEF700937AC7 /* emptyLine.cpp in Sources */,
+				A5CF9D862234313800B393BE /* friendCritter.cpp in Sources */,
 				A54B281421C6407600937AC7 /* localMinimum.cpp in Sources */,
 				A51B504521A085FF00E739CD /* fraction.cpp in Sources */,
 				A574447021316931004836F1 /* funkz.cpp in Sources */,
@@ -798,16 +850,19 @@
 				A574447C2132B2A1004836F1 /* powerA3.cpp in Sources */,
 				A56AD01021692853003FC212 /* engobj.cpp in Sources */,
 				A56ACFF221567160003FC212 /* container.cpp in Sources */,
+				A5CF9D78222BF00D00B393BE /* &&&a.cpp in Sources */,
 				A56AD00C216923EC003FC212 /* objpart.cpp in Sources */,
 				A574449E213AA03B004836F1 /* kn.cpp in Sources */,
 				A56AD0122169ED33003FC212 /* Int.cpp in Sources */,
 				A574447E2132B466004836F1 /* powerA234.cpp in Sources */,
+				A5CF9D6C2229A09100B393BE /* swapPointerVersion.cpp in Sources */,
 				A57444AC213BF102004836F1 /* multi_plication_Table.cpp in Sources */,
 				A56AD01621731153003FC212 /* PayCar.cpp in Sources */,
 				A54B281621C6449100937AC7 /* findStroka.cpp in Sources */,
 				A574446C2130AE00004836F1 /* 2darray4.cpp in Sources */,
 				A57444B9213DBE46004836F1 /* squared.cpp in Sources */,
 				A574443D21204B1F004836F1 /* sorting_word.cpp in Sources */,
+				A5CF9D842232E59300B393BE /* zooShop.cpp in Sources */,
 				A56AD006216132EC003FC212 /* const_arg.cpp in Sources */,
 				A55CC00822060EBB00344542 /* newHangman.cpp in Sources */,
 				A55CBFE521F4707100344542 /* string.cpp in Sources */,
@@ -815,6 +870,7 @@
 				A54B281821D28B6F00937AC7 /* txtD&D.cpp in Sources */,
 				A574449421399F9E004836F1 /* massiveF.cpp in Sources */,
 				A51B507521BD052E00E739CD /* 8.cpp in Sources */,
+				A5CF9D8222318AE300B393BE /* critter_farm.cpp in Sources */,
 				A57444A8213BE559004836F1 /* ktulhu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
