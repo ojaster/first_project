@@ -188,6 +188,8 @@
 		A5CF9D862234313800B393BE /* friendCritter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D852234313800B393BE /* friendCritter.cpp */; };
 		A5CF9D8822343BDF00B393BE /* latinAlphabet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8722343BDF00B393BE /* latinAlphabet.cpp */; };
 		A5CF9D8A2235834900B393BE /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D892235834900B393BE /* heap.cpp */; };
+		A5CF9D8C2236CFB600B393BE /* numberDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */; };
+		A5CF9D8E223C134D00B393BE /* HeapDataMember.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -389,6 +391,8 @@
 		A5CF9D852234313800B393BE /* friendCritter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = friendCritter.cpp; sourceTree = "<group>"; };
 		A5CF9D8722343BDF00B393BE /* latinAlphabet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = latinAlphabet.cpp; sourceTree = "<group>"; };
 		A5CF9D892235834900B393BE /* heap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
+		A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numberDelete.cpp; sourceTree = "<group>"; };
+		A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapDataMember.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -630,6 +634,8 @@
 				A5CF9D852234313800B393BE /* friendCritter.cpp */,
 				A5CF9D8722343BDF00B393BE /* latinAlphabet.cpp */,
 				A5CF9D892235834900B393BE /* heap.cpp */,
+				A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */,
+				A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -734,6 +740,7 @@
 				A55CBFDD21EA56CC00344542 /* payment.cpp in Sources */,
 				A5CF9D76222BEDA900B393BE /* **string.cpp in Sources */,
 				A5CF9D8022303CD400B393BE /* Critter.cpp in Sources */,
+				A5CF9D8C2236CFB600B393BE /* numberDelete.cpp in Sources */,
 				A5CF9D67221961E700B393BE /* pointing.cpp in Sources */,
 				A574449C213A9DC8004836F1 /* name.cpp in Sources */,
 				A57444BD2142EAEC004836F1 /* printLongWordTXT.cpp in Sources */,
@@ -869,6 +876,7 @@
 				A54B281A21DF69DC00937AC7 /* spaceCraft.cpp in Sources */,
 				A54B281821D28B6F00937AC7 /* txtD&D.cpp in Sources */,
 				A574449421399F9E004836F1 /* massiveF.cpp in Sources */,
+				A5CF9D8E223C134D00B393BE /* HeapDataMember.cpp in Sources */,
 				A51B507521BD052E00E739CD /* 8.cpp in Sources */,
 				A5CF9D8222318AE300B393BE /* critter_farm.cpp in Sources */,
 				A57444A8213BE559004836F1 /* ktulhu.cpp in Sources */,
