@@ -649,6 +649,17 @@
 //                cout<<"|"<<endl;
 //                cout<<"melner name is: dr"<<endl;
 //                cout<<"melner Damage:"<<weaponDamage<<endl;
+//            }else if(knightWeapon==3){
+//                cout<<"your weapon is classic"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"(_|_)"<<endl;
+//                cout<<"( | )"<<endl;
+//                cout<<"  |"<<endl;
+//                cout<<"your weapon name is: tiker"<<endl;
 //            }
 //        }
 //        void knightArmour(){

@@ -32,12 +32,12 @@
 //}
 //Critter & Critter::operator=(const Critter & c){
 //    cout<<"Перегурзка оператора = "<<endl;
-//    if(this != &c){
+//    if(this != &c){//не присваивается ли объект сам себе?
 //        delete m_pName;
 //        m_pName = new string(*(c.m_pName));
 //        m_Age = c.m_Age;
 //    }
-//    return *this;
+//    return *this;//ссылка на объект класса critter
 //}
 //Critter::~Critter(){
 //    cout<<"destructor is called"<<endl;
@@ -46,10 +46,13 @@
 //void Critter::greet() const{
 //    cout<<"name:"<<*m_pName<<endl;
 //    cout<<"age:"<<m_Age<<endl;
+//    cout<<"name:"<<m_pName<<endl;
+//    cout<<"age:"<<&m_Age<<endl;
 //}
 //Critter::Critter(const Critter & c){
 //    cout<<"copy constructer called"<<endl;
 //    m_pName = new string(*(c.m_pName));
+//    //m_pName = c.m_pName;
 //    m_Age = c.m_Age;
 //}
 //void testDestructor();

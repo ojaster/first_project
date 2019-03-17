@@ -190,6 +190,7 @@
 		A5CF9D8A2235834900B393BE /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D892235834900B393BE /* heap.cpp */; };
 		A5CF9D8C2236CFB600B393BE /* numberDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */; };
 		A5CF9D8E223C134D00B393BE /* HeapDataMember.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */; };
+		A5CF9D90223E390400B393BE /* Game_Lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -393,6 +394,7 @@
 		A5CF9D892235834900B393BE /* heap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
 		A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numberDelete.cpp; sourceTree = "<group>"; };
 		A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapDataMember.cpp; sourceTree = "<group>"; };
+		A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game_Lobby.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -636,6 +638,7 @@
 				A5CF9D892235834900B393BE /* heap.cpp */,
 				A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */,
 				A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */,
+				A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -777,6 +780,7 @@
 				A56ACFE121481556003FC212 /* twoWall.cpp in Sources */,
 				A56ACFFE215F8AF2003FC212 /* overeng.cpp in Sources */,
 				A56AD00421612F13003FC212 /* static.cpp in Sources */,
+				A5CF9D90223E390400B393BE /* Game_Lobby.cpp in Sources */,
 				A574443321204484004836F1 /* main.cpp in Sources */,
 				A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */,
 				A574445E212833BD004836F1 /* dvoicnaia.cpp in Sources */,
