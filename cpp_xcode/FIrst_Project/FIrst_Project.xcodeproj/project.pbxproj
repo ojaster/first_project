@@ -191,6 +191,9 @@
 		A5CF9D8C2236CFB600B393BE /* numberDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */; };
 		A5CF9D8E223C134D00B393BE /* HeapDataMember.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */; };
 		A5CF9D90223E390400B393BE /* Game_Lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */; };
+		A5CF9D94224125B900B393BE /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D93224125B900B393BE /* sort.cpp */; };
+		A5CF9D9822474E1300B393BE /* sortmassive2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D9722474E1300B393BE /* sortmassive2.cpp */; };
+		A5CF9D9A224751C500B393BE /* champions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D99224751C500B393BE /* champions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -395,6 +398,9 @@
 		A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numberDelete.cpp; sourceTree = "<group>"; };
 		A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapDataMember.cpp; sourceTree = "<group>"; };
 		A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game_Lobby.cpp; sourceTree = "<group>"; };
+		A5CF9D93224125B900B393BE /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		A5CF9D9722474E1300B393BE /* sortmassive2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortmassive2.cpp; sourceTree = "<group>"; };
+		A5CF9D99224751C500B393BE /* champions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = champions.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -639,6 +645,9 @@
 				A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */,
 				A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */,
 				A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */,
+				A5CF9D93224125B900B393BE /* sort.cpp */,
+				A5CF9D9722474E1300B393BE /* sortmassive2.cpp */,
+				A5CF9D99224751C500B393BE /* champions.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -808,6 +817,7 @@
 				A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */,
 				A55CBFF721FC8B5100344542 /* scoping.cpp in Sources */,
 				A55CC012220ECE7D00344542 /* inventoryReferencer.cpp in Sources */,
+				A5CF9D94224125B900B393BE /* sort.cpp in Sources */,
 				A5744464212981E7004836F1 /* dynamic.cpp in Sources */,
 				A57444AE213BF2AF004836F1 /* Average.cpp in Sources */,
 				A55CC010220ECA2D00344542 /* inventory_inventory_displayer.cpp in Sources */,
@@ -825,6 +835,7 @@
 				A574447221316B14004836F1 /* funkz2.cpp in Sources */,
 				A55CC0062205F39700344542 /* mad_lib.cpp in Sources */,
 				A55CBFEB21F7906F00344542 /* palindroma.cpp in Sources */,
+				A5CF9D9822474E1300B393BE /* sortmassive2.cpp in Sources */,
 				A574449021345626004836F1 /* Fibonaci.cpp in Sources */,
 				A574445021249B0B004836F1 /* test3.cpp in Sources */,
 				A574447421316D71004836F1 /* funkz3.cpp in Sources */,
@@ -838,6 +849,7 @@
 				A574449221399D34004836F1 /* proc6.cpp in Sources */,
 				A56AD008216138BC003FC212 /* times.cpp in Sources */,
 				A5CF9D8A2235834900B393BE /* heap.cpp in Sources */,
+				A5CF9D9A224751C500B393BE /* champions.cpp in Sources */,
 				A56ACFDF214568FC003FC212 /* hello_olleh.cpp in Sources */,
 				A57444B0213BF713004836F1 /* golden_ratio.cpp in Sources */,
 				A57444AA213BE713004836F1 /* Happy.cpp in Sources */,

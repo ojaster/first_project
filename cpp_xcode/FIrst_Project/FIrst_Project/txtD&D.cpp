@@ -602,6 +602,15 @@
 //                cout<<"| _|  | _|"<<endl;
 //                cout<<"Your pants name is: galavfa"<<endl;
 //                cout<<"defence:"<<pantsDefend<<endl;
+//            }else if(warriorPantsType==3){
+//                cout<<"your choes are classic"<<endl;
+//                cout<<" |  |  |  |"<<endl;
+//                cout<<" |  |  |  |"<<endl;
+//                cout<<" |  |  |  |"<<endl;
+//                cout<<" |  |  |  |"<<endl;
+//                cout<<" |  |  |  |"<<endl;
+//                cout<<"your pants name is original"<<endl;
+//                cout<<"defence:"<<pantsDefend<<endl;
 //            }
 //        }
 //        void warriorChoes(){
@@ -622,6 +631,13 @@
 //                cout<<"|___|  |____|"<<endl;
 //                cout<<"choes name is: bistro"<<endl;
 //                cout<<"defence:"<<choesDefence<<endl;
+//            }else if(warriorChoesType == 3){
+//                cout<<"your choes are bosonowki"<<endl;
+//                cout<<"(    ("<<endl;
+//                cout<<" (    ("<<endl;
+//                cout<<"  (    ("<<endl;
+//                cout<<"your choes name is hodoki"<<endl;
+//                cout<<"defence:"<<choesDefend<<endl;
 //            }
 //        }
 //        //warrior end
@@ -660,6 +676,7 @@
 //                cout<<"( | )"<<endl;
 //                cout<<"  |"<<endl;
 //                cout<<"your weapon name is: tiker"<<endl;
+//                 cout<<" Damage:"<<weaponDamage<<endl;
 //            }
 //        }
 //        void knightArmour(){
