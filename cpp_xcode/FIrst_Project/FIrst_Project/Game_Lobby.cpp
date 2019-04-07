@@ -20,12 +20,21 @@
 //    string getName()const;
 //    Player * getNext()const;
 //    void setNext(Player * next);
+//    friend ostream & operator <<(ostream & os , const Player & bplayer);
 //    
 //};
+// ostream & operator <<(ostream & os , const Player & bplayer);
+//
+// ostream & operator <<(ostream & os , const Player & bplayer){
+//     os<<"name:";
+//     os<<bplayer.getName()<<endl;
+//     return  os;
+//}
 //
 //class Lobby{
 //private:
 //    Player * m_pHead;
+//    Player * m_pTail;
 //public:
 //    Lobby();
 //    ~Lobby();
@@ -54,14 +63,15 @@
 //        cout<<"Lobby is empty"<<endl;
 //    }else{
 //        while(pIter != NULL){
-//            os<<pIter->getName()<<endl;
+//            //os<<pIter->getName()<<endl;
+//            os<<(*pIter)<<endl;
 //            pIter = (*pIter).getNext();
 //        }
 //    }
 //    return os;
 //}
 //
-//Lobby::Lobby():m_pHead(0){}
+//Lobby::Lobby():m_pHead(0),m_pTail(0){}
 //Lobby::~Lobby(){
 //    clear();
 //}
@@ -72,12 +82,15 @@
 //    Player * newPlayer = new Player(name);
 //    if(m_pHead == NULL){ // если список пуст поставить в начало нового игрока
 //        m_pHead = newPlayer;
+//        m_pTail = newPlayer;
 //    }else{ //в противном случае найти конец списка и добавить туда игрока
-//        Player * pIter = m_pHead;
-//        while (pIter-> getNext() != 0) {
-//            pIter = pIter -> getNext();
-//        }
-//        pIter->setNext(newPlayer);
+//        m_pTail ->setNext(newPlayer); //   (h-)[1]-(t-)[2]
+//        m_pTail = newPlayer;
+////        Player * pIter = m_pHead;
+////        while (pIter-> getNext() != 0) {
+////            pIter = pIter -> getNext();
+////        }
+////        pIter->setNext(newPlayer);
 //    }
 //}
 //

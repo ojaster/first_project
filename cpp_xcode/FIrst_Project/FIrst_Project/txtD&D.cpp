@@ -443,6 +443,13 @@
 //                cout<<"   /______| /______|"<<endl;
 //                cout<<"bakalvr name is: polatka"<<endl;
 //                cout<<"defence:"<<choesDefence<<endl;
+//            }else if(necromanceChoesType==3){
+//                cout<<"your  choes are magician"<<endl;
+//                cout<<" __   __"<<endl;
+//                cout<<"(  ) (  )"<<endl;
+//                cout<<" --   --"<<endl;
+//                cout<<"your magician name is invas"<<endl;
+//                cout<<"defend:"<<choesDefence<<endl;
 //            }
 //        }
 //        void necromancePants(){
@@ -467,6 +474,15 @@
 //                cout<<"bolohon name is: bodun"<<endl;
 //                cout<<"defend: "<<pantsDefend<<endl;
 //
+//            }else if(necromancePantsType == 3){
+//                cout<<"your pants are genum"<<endl;
+//                cout<<"| |  | |"<<endl;
+//                cout<<"| |  | |"<<endl;
+//                cout<<"| |  | |"<<endl;
+//                cout<<"| |  | |"<<endl;
+//                cout<<"(_)  (_)"<<endl;
+//                cout<<"your genum name is levi"<<endl;
+//                cout<<"defend: "<<pantsDefend<<endl;
 //            }
 //        }
 //        void necromanceArmour(){
@@ -492,6 +508,14 @@
 //                cout<<" |_   _|"<<endl;
 //                cout<<"gavanda name is: fraug"<<endl;
 //                cout<<"defence:"<<ArmourDefence<<endl;
+//            }else if(necromanWeaponType == 3){
+//                cout<<"your armour is sppedun"<<endl;
+//                cout<<"(__*__)"<<endl;
+//                cout<<" |   |"<<endl;
+//                cout<<"|     |"<<endl;
+//                cout<<"attck speed = x10"<<endl;
+//                cout<<"defence:"<<ArmourDefence<<endl;
+//
 //            }
 //
 //
@@ -527,6 +551,18 @@
 //                cout<<"summoned persons Demon,Baby Dragon,zombi, elf, goblin, lord, lord demon, dragon"<<endl;
 //                cout<<"Persons Damage: 12-34 "<<endl;
 //                cout<<"persons Defence: 22-45"<<endl;
+//            }else if (necromanWeaponType==3){
+//                cout<<"your weapon is a magic book"<<endl;
+//                cout<<" ------ ------"<<endl;
+//                cout<<"|      |      |"<<endl;
+//                cout<<"|      |      |"<<endl;
+//                cout<<"|      |      |"<<endl;
+//                cout<<"|      |      |"<<endl;
+//                cout<<" ------ ------"<<endl;
+//                cout<<"your book name is summoner"<<endl;
+//                cout<<"summon everuthing"<<endl;
+//                cout<<"critters damage 0 - infinity"<<endl;
+//                cout<<"critters health 0 - infinity"<<endl;
 //            }
 //        }
 //        //Necromance end
@@ -583,6 +619,18 @@
 //                cout<<" --------"<<endl;
 //                cout<<"your armour name is: square"<<endl;
 //                cout<<"defence:"<<ArmourDefence<<endl;
+//            }else if(warriorArmourType == 3){
+//                cout<<"your armour is koltsuga"<<endl;
+//                cout<<"  (|-|-|-|-|-|)"<<endl;
+//                cout<<" |-|-|-|-|-|-|-|"<<endl;
+//                cout<<"|-|-|-|-|-|-|-|-|"<<endl;
+//                cout<<"  |-|-|-|-|-|-|"<<endl;
+//                cout<<"    |-|-|-|-|"<<endl;
+//                cout<<" |-|-|-|-|-|-|-|"<<endl;
+//                cout<<" |-|-|-|-|-|-|-|"<<endl;
+//                cout<<" |-|-|-|-|-|-|-|"<<endl;
+//                cout<<"your armour name is derkin"<<endl;
+//                cout<<"defence:"<<ArmourDefence<<endl;
 //            }
 //        }
 //        void warriorPants(){
@@ -637,7 +685,7 @@
 //                cout<<" (    ("<<endl;
 //                cout<<"  (    ("<<endl;
 //                cout<<"your choes name is hodoki"<<endl;
-//                cout<<"defence:"<<choesDefend<<endl;
+//                cout<<"defence:"<<choesDefence<<endl;
 //            }
 //        }
 //        //warrior end
@@ -758,7 +806,7 @@
 //                cout<<"your choes name is Fuagra"<<endl;
 //                cout<<"defend:"<<choesDefence<<endl;
 //            }else if(knightChoesType==3){
-//                cout<<"your choes are bozilik"
+//                cout<<"your choes are bozilik"<<endl;
 //                cout<<"     _||_       _||_"<<endl;
 //                cout<<"    _|  |_     _|  |_"<<endl;
 //                cout<<"   _|    |_   _|    |_"<<endl;

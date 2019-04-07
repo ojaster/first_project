@@ -53,6 +53,7 @@
 //    cout<<"copy constructer called"<<endl;
 //    m_pName = new string(*(c.m_pName));
 //    //m_pName = c.m_pName;
+//    //m_pName = c.m_pName;
 //    m_Age = c.m_Age;
 //}
 //void testDestructor();
