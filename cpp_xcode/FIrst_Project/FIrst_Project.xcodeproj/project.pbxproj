@@ -209,6 +209,10 @@
 		A5CF9D9822474E1300B393BE /* sortmassive2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D9722474E1300B393BE /* sortmassive2.cpp */; };
 		A5CF9D9A224751C500B393BE /* champions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D99224751C500B393BE /* champions.cpp */; };
 		A5CF9D9C22494C8C00B393BE /* schoolChild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CF9D9B22494C8C00B393BE /* schoolChild.cpp */; };
+		A5DC49E3226A3AF100D57AA5 /* House.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DC49E1226A3AF100D57AA5 /* House.cpp */; };
+		A5DC49E5226A3F5C00D57AA5 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DC49E4226A3F5C00D57AA5 /* Deck.cpp */; };
+		A5DC49E9226CB87300D57AA5 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DC49E7226CB87300D57AA5 /* Game.cpp */; };
+		A5DC49EB226CC25300D57AA5 /* DemoMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DC49EA226CC25300D57AA5 /* DemoMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -435,6 +439,13 @@
 		A5CF9D9722474E1300B393BE /* sortmassive2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortmassive2.cpp; sourceTree = "<group>"; };
 		A5CF9D99224751C500B393BE /* champions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = champions.cpp; sourceTree = "<group>"; };
 		A5CF9D9B22494C8C00B393BE /* schoolChild.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = schoolChild.cpp; sourceTree = "<group>"; };
+		A5DC49E1226A3AF100D57AA5 /* House.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = House.cpp; sourceTree = "<group>"; };
+		A5DC49E2226A3AF100D57AA5 /* House.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = House.hpp; sourceTree = "<group>"; };
+		A5DC49E4226A3F5C00D57AA5 /* Deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		A5DC49E6226A3FAA00D57AA5 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		A5DC49E7226CB87300D57AA5 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		A5DC49E8226CB87300D57AA5 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		A5DC49EA226CC25300D57AA5 /* DemoMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemoMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,6 +470,13 @@
 				A5037DF822631976004878E0 /* GenericPLayer.h */,
 				A5037DF922639572004878E0 /* Player.cpp */,
 				A5037DFA22639572004878E0 /* Player.hpp */,
+				A5DC49E1226A3AF100D57AA5 /* House.cpp */,
+				A5DC49E2226A3AF100D57AA5 /* House.hpp */,
+				A5DC49E4226A3F5C00D57AA5 /* Deck.cpp */,
+				A5DC49E6226A3FAA00D57AA5 /* Deck.h */,
+				A5DC49E7226CB87300D57AA5 /* Game.cpp */,
+				A5DC49E8226CB87300D57AA5 /* Game.hpp */,
+				A5DC49EA226CC25300D57AA5 /* DemoMain.cpp */,
 			);
 			path = Game21;
 			sourceTree = "<group>";
@@ -778,6 +796,7 @@
 				A56ACFF62157A5F4003FC212 /* fi.cpp in Sources */,
 				A57444C121439976004836F1 /* sumMinusPlus.cpp in Sources */,
 				A5CF9D6A221968AB00B393BE /* pointing2.cpp in Sources */,
+				A5DC49EB226CC25300D57AA5 /* DemoMain.cpp in Sources */,
 				A57444782131AA57004836F1 /* funkz5.cpp in Sources */,
 				A574444721205141004836F1 /* compare_string.cpp in Sources */,
 				A5037DF12261D1F9004878E0 /* Card.cpp in Sources */,
@@ -786,6 +805,7 @@
 				A55CBFF921FCCAAF00344542 /* woeker.cpp in Sources */,
 				A57444A2213AFD6D004836F1 /* pasword.cpp in Sources */,
 				A574443B21204897004836F1 /* sorting.cpp in Sources */,
+				A5DC49E3226A3AF100D57AA5 /* House.cpp in Sources */,
 				A51B506721B2F30B00E739CD /* sequences.cpp in Sources */,
 				A56ACFE3214C13D7003FC212 /* probel.cpp in Sources */,
 				A5037DFF22679397004878E0 /* df.cpp in Sources */,
@@ -819,6 +839,7 @@
 				A5CF9D76222BEDA900B393BE /* **string.cpp in Sources */,
 				A5CF9D8022303CD400B393BE /* Critter.cpp in Sources */,
 				A5CF9D8C2236CFB600B393BE /* numberDelete.cpp in Sources */,
+				A5DC49E9226CB87300D57AA5 /* Game.cpp in Sources */,
 				A5CF9D67221961E700B393BE /* pointing.cpp in Sources */,
 				A574449C213A9DC8004836F1 /* name.cpp in Sources */,
 				A57444BD2142EAEC004836F1 /* printLongWordTXT.cpp in Sources */,
@@ -962,6 +983,7 @@
 				A574443D21204B1F004836F1 /* sorting_word.cpp in Sources */,
 				A5CF9D842232E59300B393BE /* zooShop.cpp in Sources */,
 				A56AD006216132EC003FC212 /* const_arg.cpp in Sources */,
+				A5DC49E5226A3F5C00D57AA5 /* Deck.cpp in Sources */,
 				A55CC00822060EBB00344542 /* newHangman.cpp in Sources */,
 				A55CBFE521F4707100344542 /* string.cpp in Sources */,
 				A54B281A21DF69DC00937AC7 /* spaceCraft.cpp in Sources */,
