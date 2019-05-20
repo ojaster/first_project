@@ -20,7 +20,6 @@
 		A5037DF32261D6C2004878E0 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF22261D6C2004878E0 /* Hand.cpp */; };
 		A5037DF5226241DD004878E0 /* GenericPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF4226241DD004878E0 /* GenericPlayer.cpp */; };
 		A5037DFB22639572004878E0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF922639572004878E0 /* Player.cpp */; };
-		A5037DFF22679397004878E0 /* df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DFE22679397004878E0 /* df.cpp */; };
 		A51630C7218DE939001ED7EE /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630C6218DE939001ED7EE /* employee.cpp */; };
 		A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630C8218EEF87001ED7EE /* cardobj.cpp */; };
 		A51630CB218EFBE5001ED7EE /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630CA218EFBE5001ED7EE /* time.cpp */; };
@@ -46,6 +45,12 @@
 		A51B507121B59CC300E739CD /* dollar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51B507021B59CC300E739CD /* dollar.cpp */; };
 		A51B507521BD052E00E739CD /* 8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51B507421BD052E00E739CD /* 8.cpp */; };
 		A51B507721C00DAA00E739CD /* sybez.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51B507621C00DAA00E739CD /* sybez.cpp */; };
+		A5317BEB22737200009A00ED /* MyVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5317BEA22737200009A00ED /* MyVector.cpp */; };
+		A5317BEE22758E92009A00ED /* QeueExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5317BEC22758E92009A00ED /* QeueExample.cpp */; };
+		A5317BF5227CA78D009A00ED /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5317BF3227CA78D009A00ED /* Customer.cpp */; };
+		A5317BF8227EDF92009A00ED /* bank2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5317BF6227EDF92009A00ED /* bank2.cpp */; };
+		A5317BFA22809601009A00ED /* hr%.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5317BF922809601009A00ED /* hr%.cpp */; };
+		A5317BFC228096C1009A00ED /* Cow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5317BFB228096C1009A00ED /* Cow.cpp */; };
 		A54B281421C6407600937AC7 /* localMinimum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B281321C6407600937AC7 /* localMinimum.cpp */; };
 		A54B281621C6449100937AC7 /* findStroka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B281521C6449100937AC7 /* findStroka.cpp */; };
 		A54B281821D28B6F00937AC7 /* txtD&D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B281721D28B6F00937AC7 /* txtD&D.cpp */; };
@@ -86,6 +91,11 @@
 		A55CC010220ECA2D00344542 /* inventory_inventory_displayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC00F220ECA2D00344542 /* inventory_inventory_displayer.cpp */; };
 		A55CC012220ECE7D00344542 /* inventoryReferencer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC011220ECE7D00344542 /* inventoryReferencer.cpp */; };
 		A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CC013220ED40800344542 /* TicTocTic.cpp */; };
+		A562803D228F0ACE00F27497 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A562803C228F0ACE00F27497 /* Card.cpp */; };
+		A562803F228F0CBA00F27497 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A562803E228F0CBA00F27497 /* Hand.cpp */; };
+		A562804222905D9800F27497 /* df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A562804122905D9800F27497 /* df.cpp */; };
+		A562804422905F3800F27497 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A562804322905F3800F27497 /* main.cpp */; };
+		A5628048229178F000F27497 /* points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5628046229178F000F27497 /* points.cpp */; };
 		A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD2214431D9003FC212 /* nonDublicate.cpp */; };
 		A56ACFD52144351C003FC212 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD42144351C003FC212 /* market.cpp */; };
 		A56ACFD72144ED75003FC212 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD62144ED75003FC212 /* question.cpp */; };
@@ -181,6 +191,11 @@
 		A57444BD2142EAEC004836F1 /* printLongWordTXT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A57444BC2142EAEC004836F1 /* printLongWordTXT.cpp */; };
 		A57444BF214377C3004836F1 /* claculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A57444BE214377C3004836F1 /* claculate.cpp */; };
 		A57444C121439976004836F1 /* sumMinusPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A57444C021439976004836F1 /* sumMinusPlus.cpp */; };
+		A586CDAD2285DD0900B0B205 /* personality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDAC2285DD0900B0B205 /* personality.cpp */; };
+		A586CDAF2285DFC200B0B205 /* personality2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDAE2285DFC200B0B205 /* personality2.cpp */; };
+		A586CDB22288194900B0B205 /* baseDMA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDB12288194900B0B205 /* baseDMA.cpp */; };
+		A586CDB422887B8400B0B205 /* Cd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDB322887B8400B0B205 /* Cd.cpp */; };
+		A586CDB8228C701C00B0B205 /* Cd2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDB6228C701C00B0B205 /* Cd2.cpp */; };
 		A5B8FB86219890F2003A0976 /* statdata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FB85219890F2003A0976 /* statdata.cpp */; };
 		A5B8FB8921989506003A0976 /* constfu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FB8721989506003A0976 /* constfu.cpp */; };
 		A5B8FB8B2199E51D003A0976 /* boatFight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FB8A2199E51D003A0976 /* boatFight.cpp */; };
@@ -245,7 +260,6 @@
 		A5037DF822631976004878E0 /* GenericPLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericPLayer.h; sourceTree = "<group>"; };
 		A5037DF922639572004878E0 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		A5037DFA22639572004878E0 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
-		A5037DFE22679397004878E0 /* df.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = df.cpp; sourceTree = "<group>"; };
 		A51630C6218DE939001ED7EE /* employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = employee.cpp; sourceTree = "<group>"; };
 		A51630C8218EEF87001ED7EE /* cardobj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardobj.cpp; sourceTree = "<group>"; };
 		A51630CA218EFBE5001ED7EE /* time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
@@ -275,6 +289,16 @@
 		A51B507021B59CC300E739CD /* dollar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dollar.cpp; sourceTree = "<group>"; };
 		A51B507421BD052E00E739CD /* 8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 8.cpp; sourceTree = "<group>"; };
 		A51B507621C00DAA00E739CD /* sybez.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sybez.cpp; sourceTree = "<group>"; };
+		A5317BEA22737200009A00ED /* MyVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyVector.cpp; sourceTree = "<group>"; };
+		A5317BEC22758E92009A00ED /* QeueExample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QeueExample.cpp; sourceTree = "<group>"; };
+		A5317BED22758E92009A00ED /* QeueExample.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QeueExample.hpp; sourceTree = "<group>"; };
+		A5317BF222797C24009A00ED /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		A5317BF3227CA78D009A00ED /* Customer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
+		A5317BF4227CA78D009A00ED /* Customer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
+		A5317BF6227EDF92009A00ED /* bank2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bank2.cpp; sourceTree = "<group>"; };
+		A5317BF7227EDF92009A00ED /* bank2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bank2.hpp; sourceTree = "<group>"; };
+		A5317BF922809601009A00ED /* hr%.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "hr%.cpp"; sourceTree = "<group>"; };
+		A5317BFB228096C1009A00ED /* Cow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cow.cpp; sourceTree = "<group>"; };
 		A54B281321C6407600937AC7 /* localMinimum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = localMinimum.cpp; sourceTree = "<group>"; };
 		A54B281521C6449100937AC7 /* findStroka.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findStroka.cpp; sourceTree = "<group>"; };
 		A54B281721D28B6F00937AC7 /* txtD&D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "txtD&D.cpp"; sourceTree = "<group>"; };
@@ -315,6 +339,14 @@
 		A55CC00F220ECA2D00344542 /* inventory_inventory_displayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inventory_inventory_displayer.cpp; sourceTree = "<group>"; };
 		A55CC011220ECE7D00344542 /* inventoryReferencer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inventoryReferencer.cpp; sourceTree = "<group>"; };
 		A55CC013220ED40800344542 /* TicTocTic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicTocTic.cpp; sourceTree = "<group>"; };
+		A562803C228F0ACE00F27497 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		A562803E228F0CBA00F27497 /* Hand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
+		A5628040228F0D1300F27497 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A562804122905D9800F27497 /* df.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = df.cpp; sourceTree = "<group>"; };
+		A562804322905F3800F27497 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A562804522905F4900F27497 /* Hand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		A5628046229178F000F27497 /* points.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = points.cpp; sourceTree = "<group>"; };
+		A5628047229178F000F27497 /* points.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = points.hpp; sourceTree = "<group>"; };
 		A56ACFD2214431D9003FC212 /* nonDublicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonDublicate.cpp; sourceTree = "<group>"; };
 		A56ACFD42144351C003FC212 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
 		A56ACFD62144ED75003FC212 /* question.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
@@ -411,6 +443,13 @@
 		A57444BC2142EAEC004836F1 /* printLongWordTXT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = printLongWordTXT.cpp; sourceTree = "<group>"; };
 		A57444BE214377C3004836F1 /* claculate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = claculate.cpp; sourceTree = "<group>"; };
 		A57444C021439976004836F1 /* sumMinusPlus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sumMinusPlus.cpp; sourceTree = "<group>"; };
+		A586CDAC2285DD0900B0B205 /* personality.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = personality.cpp; sourceTree = "<group>"; };
+		A586CDAE2285DFC200B0B205 /* personality2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = personality2.cpp; sourceTree = "<group>"; };
+		A586CDB12288194900B0B205 /* baseDMA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = baseDMA.cpp; sourceTree = "<group>"; };
+		A586CDB322887B8400B0B205 /* Cd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cd.cpp; sourceTree = "<group>"; };
+		A586CDB5228B21CA00B0B205 /* Cd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cd.h; sourceTree = "<group>"; };
+		A586CDB6228C701C00B0B205 /* Cd2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cd2.cpp; sourceTree = "<group>"; };
+		A586CDB7228C701C00B0B205 /* Cd2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cd2.hpp; sourceTree = "<group>"; };
 		A5B8FB85219890F2003A0976 /* statdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = statdata.cpp; sourceTree = "<group>"; };
 		A5B8FB8721989506003A0976 /* constfu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = constfu.cpp; sourceTree = "<group>"; };
 		A5B8FB8A2199E51D003A0976 /* boatFight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boatFight.cpp; sourceTree = "<group>"; };
@@ -477,6 +516,7 @@
 				A5DC49E7226CB87300D57AA5 /* Game.cpp */,
 				A5DC49E8226CB87300D57AA5 /* Game.hpp */,
 				A5DC49EA226CC25300D57AA5 /* DemoMain.cpp */,
+				A51B505621A9A81700E739CD /* Arrays */,
 			);
 			path = Game21;
 			sourceTree = "<group>";
@@ -484,9 +524,26 @@
 		A51B505621A9A81700E739CD /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				A562803B228F0A9400F27497 /* Poker */,
+				A586CDB02288192400B0B205 /* inheritance */,
 				A5B8FB8421988AC7003A0976 /* static_data */,
 			);
 			name = Arrays;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A562803B228F0A9400F27497 /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				A562803C228F0ACE00F27497 /* Card.cpp */,
+				A5628040228F0D1300F27497 /* Card.h */,
+				A562803E228F0CBA00F27497 /* Hand.cpp */,
+				A562804522905F4900F27497 /* Hand.h */,
+				A5628046229178F000F27497 /* points.cpp */,
+				A5628047229178F000F27497 /* points.hpp */,
+				A562804322905F3800F27497 /* main.cpp */,
+			);
+			path = Poker;
 			sourceTree = "<group>";
 		};
 		A574442621204484004836F1 = {
@@ -509,10 +566,21 @@
 			isa = PBXGroup;
 			children = (
 				A5037DEF2261D1E2004878E0 /* Game21 */,
-				A51B505621A9A81700E739CD /* Arrays */,
 				A5B8FB83219889E2003A0976 /* old_oop */,
 			);
 			path = FIrst_Project;
+			sourceTree = "<group>";
+		};
+		A586CDB02288192400B0B205 /* inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				A586CDB12288194900B0B205 /* baseDMA.cpp */,
+				A586CDB322887B8400B0B205 /* Cd.cpp */,
+				A586CDB5228B21CA00B0B205 /* Cd.h */,
+				A586CDB6228C701C00B0B205 /* Cd2.cpp */,
+				A586CDB7228C701C00B0B205 /* Cd2.hpp */,
+			);
+			path = inheritance;
 			sourceTree = "<group>";
 		};
 		A5B8FB83219889E2003A0976 /* old_oop */ = {
@@ -712,7 +780,6 @@
 				A5CF9D892235834900B393BE /* heap.cpp */,
 				A5CF9D8B2236CFB600B393BE /* numberDelete.cpp */,
 				A5CF9D8D223C134D00B393BE /* HeapDataMember.cpp */,
-				A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */,
 				A5CF9D93224125B900B393BE /* sort.cpp */,
 				A5CF9D9722474E1300B393BE /* sortmassive2.cpp */,
 				A5CF9D99224751C500B393BE /* champions.cpp */,
@@ -726,7 +793,20 @@
 				A5037DE8225A5AE4004878E0 /* Creature.cpp */,
 				A5037DEA225A620B004878E0 /* Person.cpp */,
 				A5037DEC225BAF1E004878E0 /* chess.cpp */,
-				A5037DFE22679397004878E0 /* df.cpp */,
+				A5317BEA22737200009A00ED /* MyVector.cpp */,
+				A5CF9D8F223E390400B393BE /* Game_Lobby.cpp */,
+				A5317BF222797C24009A00ED /* Item.h */,
+				A5317BF6227EDF92009A00ED /* bank2.cpp */,
+				A5317BF7227EDF92009A00ED /* bank2.hpp */,
+				A5317BEC22758E92009A00ED /* QeueExample.cpp */,
+				A5317BED22758E92009A00ED /* QeueExample.hpp */,
+				A5317BF3227CA78D009A00ED /* Customer.cpp */,
+				A5317BF4227CA78D009A00ED /* Customer.hpp */,
+				A5317BF922809601009A00ED /* hr%.cpp */,
+				A5317BFB228096C1009A00ED /* Cow.cpp */,
+				A586CDAC2285DD0900B0B205 /* personality.cpp */,
+				A586CDAE2285DFC200B0B205 /* personality2.cpp */,
+				A562804122905D9800F27497 /* df.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -808,7 +888,6 @@
 				A5DC49E3226A3AF100D57AA5 /* House.cpp in Sources */,
 				A51B506721B2F30B00E739CD /* sequences.cpp in Sources */,
 				A56ACFE3214C13D7003FC212 /* probel.cpp in Sources */,
-				A5037DFF22679397004878E0 /* df.cpp in Sources */,
 				A5CF9D8822343BDF00B393BE /* latinAlphabet.cpp in Sources */,
 				A55CBFF521FC857A00344542 /* YesORNo.cpp in Sources */,
 				A56ACFF4215763AD003FC212 /* swap.cpp in Sources */,
@@ -840,6 +919,9 @@
 				A5CF9D8022303CD400B393BE /* Critter.cpp in Sources */,
 				A5CF9D8C2236CFB600B393BE /* numberDelete.cpp in Sources */,
 				A5DC49E9226CB87300D57AA5 /* Game.cpp in Sources */,
+				A562804222905D9800F27497 /* df.cpp in Sources */,
+				A5628048229178F000F27497 /* points.cpp in Sources */,
+				A562803D228F0ACE00F27497 /* Card.cpp in Sources */,
 				A5CF9D67221961E700B393BE /* pointing.cpp in Sources */,
 				A574449C213A9DC8004836F1 /* name.cpp in Sources */,
 				A57444BD2142EAEC004836F1 /* printLongWordTXT.cpp in Sources */,
@@ -859,6 +941,7 @@
 				A51B504D21A1897300E739CD /* stock.cpp in Sources */,
 				A51B505D21AA98D600E739CD /* Reverse.cpp in Sources */,
 				A57444802132B597004836F1 /* proc3.cpp in Sources */,
+				A586CDAD2285DD0900B0B205 /* personality.cpp in Sources */,
 				A56ACFE9214CF105003FC212 /* lunch.cpp in Sources */,
 				A574443F21204C96004836F1 /* input_example.cpp in Sources */,
 				A51B5041219C770C00E739CD /* drop.cpp in Sources */,
@@ -873,6 +956,7 @@
 				A57444542127115E004836F1 /* urovnenia.cpp in Sources */,
 				A56AD00221608F88003FC212 /* mainPower.cpp in Sources */,
 				A51B507121B59CC300E739CD /* dollar.cpp in Sources */,
+				A586CDB8228C701C00B0B205 /* Cd2.cpp in Sources */,
 				A56ACFE121481556003FC212 /* twoWall.cpp in Sources */,
 				A56ACFFE215F8AF2003FC212 /* overeng.cpp in Sources */,
 				A56AD00421612F13003FC212 /* static.cpp in Sources */,
@@ -891,6 +975,7 @@
 				A57444BB213F022C004836F1 /* all_in_one.cpp in Sources */,
 				A574446E213162C0004836F1 /* 2darray5.cpp in Sources */,
 				A55CBFE921F63E9800344542 /* find.cpp in Sources */,
+				A5317BF8227EDF92009A00ED /* bank2.cpp in Sources */,
 				A574444521205036004836F1 /* operation_inc.cpp in Sources */,
 				A55CC00A2206F38300344542 /* task3.cpp in Sources */,
 				A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */,
@@ -904,9 +989,11 @@
 				A55CBFDF21EB321B00344542 /* testvectorSize.cpp in Sources */,
 				A574445621271878004836F1 /* dif.cpp in Sources */,
 				A56ACFD921452A6E003FC212 /* joke22.cpp in Sources */,
+				A586CDAF2285DFC200B0B205 /* personality2.cpp in Sources */,
 				A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */,
 				A55CBFF721FC8B5100344542 /* scoping.cpp in Sources */,
 				A55CC012220ECE7D00344542 /* inventoryReferencer.cpp in Sources */,
+				A5317BF5227CA78D009A00ED /* Customer.cpp in Sources */,
 				A5CF9D94224125B900B393BE /* sort.cpp in Sources */,
 				A5744464212981E7004836F1 /* dynamic.cpp in Sources */,
 				A57444AE213BF2AF004836F1 /* Average.cpp in Sources */,
@@ -936,10 +1023,12 @@
 				A56ACFFA215A9054003FC212 /* Minus6.cpp in Sources */,
 				A56ACFD52144351C003FC212 /* market.cpp in Sources */,
 				A5CF9D7E223034CC00B393BE /* privateCritter.cpp in Sources */,
+				A5317BEB22737200009A00ED /* MyVector.cpp in Sources */,
 				A574448E2134543C004836F1 /* zadata310.cpp in Sources */,
 				A574449221399D34004836F1 /* proc6.cpp in Sources */,
 				A56AD008216138BC003FC212 /* times.cpp in Sources */,
 				A5CF9D8A2235834900B393BE /* heap.cpp in Sources */,
+				A562804422905F3800F27497 /* main.cpp in Sources */,
 				A5CF9D9A224751C500B393BE /* champions.cpp in Sources */,
 				A5037DF5226241DD004878E0 /* GenericPlayer.cpp in Sources */,
 				A56ACFDF214568FC003FC212 /* hello_olleh.cpp in Sources */,
@@ -947,10 +1036,13 @@
 				A57444AA213BE713004836F1 /* Happy.cpp in Sources */,
 				A5037DE3224F51AC004878E0 /* product.cpp in Sources */,
 				A51B506921B3847200E739CD /* sumdelitel.cpp in Sources */,
+				A5317BFC228096C1009A00ED /* Cow.cpp in Sources */,
 				A51B506121AC60F400E739CD /* noPlace.cpp in Sources */,
 				A574444121204DC8004836F1 /* copy.cpp in Sources */,
 				A574445C21282C86004836F1 /* delitel.cpp in Sources */,
 				A54B281E21E0AEF700937AC7 /* emptyLine.cpp in Sources */,
+				A5317BFA22809601009A00ED /* hr%.cpp in Sources */,
+				A562803F228F0CBA00F27497 /* Hand.cpp in Sources */,
 				A5CF9D862234313800B393BE /* friendCritter.cpp in Sources */,
 				A54B281421C6407600937AC7 /* localMinimum.cpp in Sources */,
 				A51B504521A085FF00E739CD /* fraction.cpp in Sources */,
@@ -975,7 +1067,9 @@
 				A574447E2132B466004836F1 /* powerA234.cpp in Sources */,
 				A5CF9D6C2229A09100B393BE /* swapPointerVersion.cpp in Sources */,
 				A57444AC213BF102004836F1 /* multi_plication_Table.cpp in Sources */,
+				A586CDB22288194900B0B205 /* baseDMA.cpp in Sources */,
 				A56AD01621731153003FC212 /* PayCar.cpp in Sources */,
+				A5317BEE22758E92009A00ED /* QeueExample.cpp in Sources */,
 				A54B281621C6449100937AC7 /* findStroka.cpp in Sources */,
 				A574446C2130AE00004836F1 /* 2darray4.cpp in Sources */,
 				A5037DFB22639572004878E0 /* Player.cpp in Sources */,
@@ -994,6 +1088,7 @@
 				A51B507521BD052E00E739CD /* 8.cpp in Sources */,
 				A5037DF32261D6C2004878E0 /* Hand.cpp in Sources */,
 				A5CF9D8222318AE300B393BE /* critter_farm.cpp in Sources */,
+				A586CDB422887B8400B0B205 /* Cd.cpp in Sources */,
 				A57444A8213BE559004836F1 /* ktulhu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

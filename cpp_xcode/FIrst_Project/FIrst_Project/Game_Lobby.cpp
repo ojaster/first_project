@@ -110,34 +110,34 @@
 //    }
 //}
 //
-//int main(){
-//    Lobby myLobby;
-//    int choice;
-//    do{
-//        cout<<myLobby<<endl;
-//        cout<<"0 = exit"<<endl;
-//        cout<<"1 = add player"<<endl;
-//        cout<<"2 = remove player"<<endl;
-//        cout<<"3 = clear"<<endl;
-//        cout<<"enter choice:";
-//        cin>>choice;
-//        switch (choice) {
-//            case 0:
-//                cout<<"good bye"<<endl;
-//                break;
-//            case 1:
-//                myLobby.addPlayer();
-//                break;
-//            case 2:
-//                myLobby.removePlayer();
-//                break;
-//            case 3:
-//                myLobby.clear();
-//                break;
-//                
-//            default:
-//                cout<<"it's unveiable choice "<<endl;
-//                break;
-//        }
-//    }while(choice != 0);
-//}
+////int main(){
+////    Lobby myLobby;
+////    int choice;
+////    do{
+////        cout<<myLobby<<endl;
+////        cout<<"0 = exit"<<endl;
+////        cout<<"1 = add player"<<endl;
+////        cout<<"2 = remove player"<<endl;
+////        cout<<"3 = clear"<<endl;
+////        cout<<"enter choice:";
+////        cin>>choice;
+////        switch (choice) {
+////            case 0:
+////                cout<<"good bye"<<endl;
+////                break;
+////            case 1:
+////                myLobby.addPlayer();
+////                break;
+////            case 2:
+////                myLobby.removePlayer();
+////                break;
+////            case 3:
+////                myLobby.clear();
+////                break;
+////
+////            default:
+////                cout<<"it's unveiable choice "<<endl;
+////                break;
+////        }
+////    }while(choice != 0);
+////}
