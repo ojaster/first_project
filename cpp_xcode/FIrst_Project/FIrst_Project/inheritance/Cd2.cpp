@@ -43,9 +43,9 @@ Classic::Classic(const Classic & d){
 }
 
 Classic::Classic(){
-    something[0] = '\0';
-    performers[0] = '\0';
-    label[0] = '\0';
+    something = NULL;
+    performers = NULL;
+    label = NULL;
     selections = 0;
     playtime = 0;
 }
@@ -87,8 +87,8 @@ void Cd2::Report()const{
 }
 
 Cd2::Cd2(){
-    performers[0] = '\0';
-    label[0] = '\0';
+    performers = NULL;
+    label = NULL;
     selections = 0;
     playtime = 0;
 }

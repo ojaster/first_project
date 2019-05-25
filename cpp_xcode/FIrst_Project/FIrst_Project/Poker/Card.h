@@ -76,7 +76,7 @@ public:
     Card(){
         for(string s : c){
             card.push_back(s);
-            cout<<c<<endl;
+            cout<<*c<<endl;
         }
        
     }

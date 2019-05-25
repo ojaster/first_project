@@ -20,6 +20,8 @@
 		A5037DF32261D6C2004878E0 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF22261D6C2004878E0 /* Hand.cpp */; };
 		A5037DF5226241DD004878E0 /* GenericPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF4226241DD004878E0 /* GenericPlayer.cpp */; };
 		A5037DFB22639572004878E0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF922639572004878E0 /* Player.cpp */; };
+		A515B2A32295113F00B3FB42 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515B2A22295113F00B3FB42 /* Calculator.cpp */; };
+		A515B2A52295313300B3FB42 /* 2DQuize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515B2A42295313300B3FB42 /* 2DQuize.cpp */; };
 		A51630C7218DE939001ED7EE /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630C6218DE939001ED7EE /* employee.cpp */; };
 		A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630C8218EEF87001ED7EE /* cardobj.cpp */; };
 		A51630CB218EFBE5001ED7EE /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630CA218EFBE5001ED7EE /* time.cpp */; };
@@ -260,6 +262,8 @@
 		A5037DF822631976004878E0 /* GenericPLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericPLayer.h; sourceTree = "<group>"; };
 		A5037DF922639572004878E0 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		A5037DFA22639572004878E0 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		A515B2A22295113F00B3FB42 /* Calculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cpp; sourceTree = "<group>"; };
+		A515B2A42295313300B3FB42 /* 2DQuize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2DQuize.cpp; sourceTree = "<group>"; };
 		A51630C6218DE939001ED7EE /* employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = employee.cpp; sourceTree = "<group>"; };
 		A51630C8218EEF87001ED7EE /* cardobj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardobj.cpp; sourceTree = "<group>"; };
 		A51630CA218EFBE5001ED7EE /* time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
@@ -807,6 +811,8 @@
 				A586CDAC2285DD0900B0B205 /* personality.cpp */,
 				A586CDAE2285DFC200B0B205 /* personality2.cpp */,
 				A562804122905D9800F27497 /* df.cpp */,
+				A515B2A22295113F00B3FB42 /* Calculator.cpp */,
+				A515B2A42295313300B3FB42 /* 2DQuize.cpp */,
 			);
 			name = static_data;
 			sourceTree = "<group>";
@@ -938,6 +944,7 @@
 				A51B506F21B3D3BC00E739CD /* sstrio.cpp in Sources */,
 				A574445A21282822004836F1 /* sorting2.cpp in Sources */,
 				A56ACFF021516FBC003FC212 /* Alice_Party.cpp in Sources */,
+				A515B2A52295313300B3FB42 /* 2DQuize.cpp in Sources */,
 				A51B504D21A1897300E739CD /* stock.cpp in Sources */,
 				A51B505D21AA98D600E739CD /* Reverse.cpp in Sources */,
 				A57444802132B597004836F1 /* proc3.cpp in Sources */,
@@ -980,6 +987,7 @@
 				A55CC00A2206F38300344542 /* task3.cpp in Sources */,
 				A55CBFE321F35F6300344542 /* hangMan.cpp in Sources */,
 				A55CBFF321FC835800344542 /* instructions.cpp in Sources */,
+				A515B2A32295113F00B3FB42 /* Calculator.cpp in Sources */,
 				A54B282621E4FDC300937AC7 /* high_scores.cpp in Sources */,
 				A5037DED225BAF1E004878E0 /* chess.cpp in Sources */,
 				A574448C21345048004836F1 /* zadata309.cpp in Sources */,

@@ -12,7 +12,9 @@
 //using namespace std;
 //int main(){
 //    Hand game1;
-//    cout<<game1.handFull()<<endl;
-//    cout<<"c"<<endl;
+//    game1.cardsShuffle();
+//    game1.handFull();
+//    game1.dealerHandFull();
+//    game1.showHand();
 //
 //}
