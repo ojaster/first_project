@@ -52,6 +52,7 @@ Classic::Classic(){
 Classic::~Classic(){
     delete label;
     delete performers;
+    delete something;
 }
 void Classic::Report()const{
     for(int i=0; i<strlen(performers); i++){
@@ -65,8 +66,20 @@ void Classic::Report()const{
 }
 
 Classic & Classic::operator=(Classic & d){
+    if(performers != NULL){
+        delete performers;
+    }
+    if(something != NULL){
+        delete performers;
+    }
+    if(label != NULL){
+        delete performers;
+    }
+    performers = new char[strlen(d.performers)];
     strcpy(performers, d.performers);
+    something = new char[strlen(d.something)];
     strcpy(something, d.something);
+    label = new char[strlen(d.label)];
     strcpy(label, d.label);
     selections = d.selections;
     playtime = d.playtime;
