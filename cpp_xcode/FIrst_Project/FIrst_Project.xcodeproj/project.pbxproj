@@ -22,6 +22,8 @@
 		A5037DFB22639572004878E0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5037DF922639572004878E0 /* Player.cpp */; };
 		A515B2A32295113F00B3FB42 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515B2A22295113F00B3FB42 /* Calculator.cpp */; };
 		A515B2A52295313300B3FB42 /* 2DQuize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515B2A42295313300B3FB42 /* 2DQuize.cpp */; };
+		A515B2A82299A3C100B3FB42 /* repetition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515B2A72299A3C100B3FB42 /* repetition.cpp */; };
+		A515B2AA229A58C100B3FB42 /* everything.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515B2A9229A58C100B3FB42 /* everything.cpp */; };
 		A51630C7218DE939001ED7EE /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630C6218DE939001ED7EE /* employee.cpp */; };
 		A51630C9218EEF87001ED7EE /* cardobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630C8218EEF87001ED7EE /* cardobj.cpp */; };
 		A51630CB218EFBE5001ED7EE /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A51630CA218EFBE5001ED7EE /* time.cpp */; };
@@ -264,6 +266,8 @@
 		A5037DFA22639572004878E0 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 		A515B2A22295113F00B3FB42 /* Calculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cpp; sourceTree = "<group>"; };
 		A515B2A42295313300B3FB42 /* 2DQuize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2DQuize.cpp; sourceTree = "<group>"; };
+		A515B2A72299A3C100B3FB42 /* repetition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = repetition.cpp; sourceTree = "<group>"; };
+		A515B2A9229A58C100B3FB42 /* everything.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = everything.cpp; sourceTree = "<group>"; };
 		A51630C6218DE939001ED7EE /* employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = employee.cpp; sourceTree = "<group>"; };
 		A51630C8218EEF87001ED7EE /* cardobj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardobj.cpp; sourceTree = "<group>"; };
 		A51630CA218EFBE5001ED7EE /* time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
@@ -525,9 +529,19 @@
 			path = Game21;
 			sourceTree = "<group>";
 		};
+		A515B2A62299A39C00B3FB42 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A515B2A72299A3C100B3FB42 /* repetition.cpp */,
+				A515B2A9229A58C100B3FB42 /* everything.cpp */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		A51B505621A9A81700E739CD /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				A515B2A62299A39C00B3FB42 /* New Group */,
 				A562803B228F0A9400F27497 /* Poker */,
 				A586CDB02288192400B0B205 /* inheritance */,
 				A5B8FB8421988AC7003A0976 /* static_data */,
@@ -970,6 +984,7 @@
 				A5CF9D90223E390400B393BE /* Game_Lobby.cpp in Sources */,
 				A574443321204484004836F1 /* main.cpp in Sources */,
 				A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */,
+				A515B2AA229A58C100B3FB42 /* everything.cpp in Sources */,
 				A574445E212833BD004836F1 /* dvoicnaia.cpp in Sources */,
 				A55CC00C2206F75E00344542 /* referencing.cpp in Sources */,
 				A5CF9D702229AA4A00B393BE /* arrayPArser.cpp in Sources */,
@@ -1037,6 +1052,7 @@
 				A56AD008216138BC003FC212 /* times.cpp in Sources */,
 				A5CF9D8A2235834900B393BE /* heap.cpp in Sources */,
 				A562804422905F3800F27497 /* main.cpp in Sources */,
+				A515B2A82299A3C100B3FB42 /* repetition.cpp in Sources */,
 				A5CF9D9A224751C500B393BE /* champions.cpp in Sources */,
 				A5037DF5226241DD004878E0 /* GenericPlayer.cpp in Sources */,
 				A56ACFDF214568FC003FC212 /* hello_olleh.cpp in Sources */,
