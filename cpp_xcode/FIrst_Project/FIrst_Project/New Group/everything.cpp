@@ -53,30 +53,38 @@ public:
         b = b - p.b;
         return value,b;
     }
-    int geta();
-    int getb();
+    int geta(){
+        return a;
+    }
+    int getb(){
+        return b;
+    }
    
 };
 class Rational:public Pair{
 public:
     Pair plus(Pair & p){
         int value;
-        a = a * p.;
-        b = b * p.a;
+        a = a * p.geta();
+        b = b * p.geta();
         value = a + b;
-        return value, p.b * b;
-    }
-    Pair division(){
-        int value;
-        value = a - p.a;
-        b = b - p.b;
-        return value,b;
-    }
-    Pair mInus(){
-        int value;
-        value = a - p.a;
-        b = b - p.b;
+        b = b * p.getb();
         return Pair(value,b);
+    }
+    Pair division(Pair & p){
+        int value;
+        value = a * p.getb();
+        b = b * p.geta();
+        
+        return Pair(value,b);
+    }
+    Pair mInus(Pair & p){
+        int value;
+        value = a * p.getb();
+        b = b * p.geta();
+        a = value - b;
+        b = b * p.getb();
+        return Pair(a,b);
     }
 };
 

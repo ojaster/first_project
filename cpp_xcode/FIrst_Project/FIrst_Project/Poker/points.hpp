@@ -8,7 +8,15 @@
 
 #ifndef points_hpp
 #define points_hpp
-
 #include <stdio.h>
-
+#include "Hand.h"
+using namespace std;
+class Points:public Hand{
+private:
+    int points = 0;
+    int pointsAi = 0;
+public:
+    int bigSwitchForPlayer();
+    
+};
 #endif /* points_hpp */

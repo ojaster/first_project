@@ -7,30 +7,34 @@
 //
 #include "Hand.h"
 void Hand::dealerHandFull(){
-    int k = currentIndex;
     vector<string> c;
     c = get();
     vector<string>::iterator ite;
-    for(; i<k+fullhand; i++){
+    ite=c.begin()+currentIndex;
+    for(int k = currentIndex; currentIndex<k+fullhand; currentIndex++, ite++){
         dealerHand.push_back(*ite);
+        
     }
+    cout<<currentIndex<<endl;
 }
+
 void Hand::handFull(){
-    int k = currentIndex;
     vector<string> c;
     c = get();
     vector<string>::iterator ite;
-    ite=c.begin()+k;
-    for(; i<k+fullhand; i++, ite++){
+    ite=c.begin()+currentIndex;
+    for(int k = currentIndex; currentIndex<k+fullhand; currentIndex++, ite++){
         hand.push_back(*ite);
+       
     }
+    cout<<currentIndex<<endl;
 }
 void Hand::showHand()const{
-    cout<<"dealer hand:";
+    cout<<"dealer hand:"<<endl;
     for(int i=0; i<dealerHand.size(); i++){
         cout<<dealerHand[i]<<endl;
     }
-    cout<<"player hand:";
+    cout<<"player hand:"<<endl;
     for(int i=0; i<hand.size(); i++){
         cout<<hand[i]<<endl;
     }
@@ -38,6 +42,7 @@ void Hand::showHand()const{
 Hand::Hand(){
     cardsShuffle();
 }
+vector<string> Hand::gethand(){return hand;}
 //int main(){
 //
 //}

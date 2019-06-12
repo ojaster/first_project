@@ -8,9 +8,11 @@
 
 #include "Card.h"
 void Card::cardsShuffle(){
+    int g;
     srand(time(NULL));
         for(int j=0; j<44; j++){
-            card[j] = rand() % 44;
+            g = rand() % 44;
+            card[j] = card[g];
         }
 }
 vector<string> Card::get(){

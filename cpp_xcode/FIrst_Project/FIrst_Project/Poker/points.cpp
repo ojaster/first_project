@@ -7,19 +7,15 @@
 //
 
 #include "points.hpp"
-#include "Hand.h"
-using namespace std;
-class Points:public Hand{
-private:
-    int points = 0;
-public:
-    int bigSwitch();
-    
-};
-int Points::bigSwitch(){
+int Points::bigSwitchForPlayer(){
+    int j;
+    vector<string> ff = gethand();
 
+    for(int i=0; i<ff.size() - 1; i++){
+        
+        if(ff[i] == ff[i+1]){
+            points+=1;
+        }
+    }
     return points;
 }
-//int main(){
-//
-//}

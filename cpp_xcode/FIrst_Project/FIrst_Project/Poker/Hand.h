@@ -18,7 +18,6 @@ using namespace std;
 class Hand:public Card{
 protected:
     int currentIndex = 0;
-    int & i = currentIndex;
     int const fullhand = 5;
     vector<string> dealerHand;
     vector<string> hand;
@@ -27,6 +26,7 @@ public:
     void handFull();
     void dealerHandFull();
     void showHand()const;
+    vector<string> gethand();
     
 };
 #endif /* Header_h */
