@@ -38,13 +38,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FIrst_Project/Poker/points.cpp"
-            timestampString = "582052476.663638"
+            timestampString = "582212720.097755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "Points::bigSwitchForPlayer()"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "Points::bigSwitchForPlayer(vector&lt;string&gt; ff)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FIrst_Project/New Group/PersonTest.cpp"
+            timestampString = "582875426.958087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "main()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

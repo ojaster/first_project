@@ -16,7 +16,7 @@ private:
     int points = 0;
     int pointsAi = 0;
 public:
-    int bigSwitchForPlayer();
+    int bigSwitchForPlayer(vector<string> ff);
     
 };
 #endif /* points_hpp */

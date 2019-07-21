@@ -7,14 +7,12 @@
 //
 
 #include "points.hpp"
-int Points::bigSwitchForPlayer(){
-    int j;
-    vector<string> ff = gethand();
-
+int Points::bigSwitchForPlayer(vector<string> ff){
     for(int i=0; i<ff.size() - 1; i++){
-        
-        if(ff[i] == ff[i+1]){
-            points+=1;
+        for(int j=i+1; j<ff.size() - 1; j++){
+            if(ff[i] == ff[j]){
+                points+=1;
+            }
         }
     }
     return points;
