@@ -12,7 +12,13 @@
 using namespace std;
 static int sizeOfAWord;
 int priority(char a){
-    return a == 'a'? 10:a == 'b'? 9:a == 'c'? 8:a == 'd'? 7:a == 'e'? 6:a == 'f'? 5:a == 'g'? 4:a == 'n'? 3:a == 't'? 2:0;
+    long b = a;
+    if(b >= 65 && b <= 91){
+        return a == 'A'? 26:a == 'B'? 25:a == 'C'? 24:a == 'D'? 23:a == 'E'? 22:a == 'F'? 21:a == 'G'? 20:a == 'H'? 19:a == 'I'? 18:a == 'J'? 17:a == 'K'? 16:a == 'L'? 15:a == 'M'? 14:a == 'N'? 13:a == 'O'? 12:a == 'P'? 11:a == 'Q'? 10:a == 'R'? 9:a == 'S'? 8:a == 'T'? 7:a == 'U'? 6:a == 'V'? 5:a == 'W'? 4:a == 'X'? 3:a == 'Y'? 2:a == 'Z'? 1:0;
+    }else{
+        return a == 'a'? 26:a == 'b'? 25:a == 'c'? 24:a == 'd'? 23:a == 'e'? 22:a == 'f'? 21:a == 'g'? 20:a == 'h'? 19:a == 'i'? 18:a == 'j'? 17:a == 'k'? 16:a == 'l'? 15:a == 'm'? 14:a == 'n'? 13:a == 'o'? 12:a == 'p'? 11:a == 'q'? 10:a == 'r'? 9:a == 's'? 8:a == 't'? 7:a == 'u'? 6:a == 'v'? 5:a == 'w'? 4:a == 'x'? 3:a == 'y'? 2:a == 'z'? 1:0;
+    }
+    
 }
 vector<string> retAnagramm(vector<string> anagramm);
 void deleteSomeElements(vector<string> &arrayforDelete, vector<string> &elementswhatNeedToDelete);
