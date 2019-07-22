@@ -10,6 +10,7 @@
 #include <vector>
 #include <iostream>
 using namespace std;
+static int sizeOfAWord;
 int priority(char a){
     return a == 'a'? 10:a == 'b'? 9:a == 'c'? 8:a == 'd'? 7:a == 'e'? 6:a == 'f'? 5:a == 'g'? 4:a == 'n'? 3:a == 't'? 2:0;
 }
@@ -17,6 +18,7 @@ vector<string> retAnagramm(vector<string> anagramm);
 void deleteSomeElements(vector<string> &arrayforDelete, vector<string> &elementswhatNeedToDelete);
 vector<string> findBiggestAnagramm(vector<string> anagrammn);
 vector<string> fullOff();
+bool ifAnnagram(string a, string b);
 int checkPair(vector<string> anagrammn);
 int main(){
     vector<string> rightAnaragmm = fullOff();
@@ -37,11 +39,7 @@ int main(){
 }
 
 vector<string> retAnagramm(vector<string> anagramm){
-    int h = 0;
     string a,b;
-    int secondTest = 0;
-    int secondtest2 = 0;
-    int d = 0;
     vector<string> timeAnnagram;
     a = anagramm.front();
     if(anagramm.size() != 1){
@@ -53,37 +51,9 @@ vector<string> retAnagramm(vector<string> anagramm){
     }
 
     while(true){
-          secondtest2 = 0;
-        h = 0;
             b = anagramm.front();
             anagramm.erase(anagramm.begin());
-        for(int i = 0; i<3; i++){
-            int u = i+1;
-            if(u == 3){
-                u = 0;
-            }
-            if(a[i] == a[u] ){
-                secondTest = 1;
-                secondtest2 ++;
-            }
-            if(b[i] == b[u] ){
-                secondTest = 2;
-                secondtest2 ++;
-            }
-        }
-        for(int i=0; i<3; i++){
-            for(int j=0; j<3; j++){
-                if(priority(a[i]) == priority(b[j])){
-                    h++;
-                    break;
-                }
-            }
-        }
-        if(h == 3 && secondTest == 0){
-            timeAnnagram.push_back(b);
-        }else if(h == 3 && secondTest == 2){
-            timeAnnagram.push_back(b);
-        }else if(h == 3 && secondtest2 == 6){
+        if(ifAnnagram(a, b)){
             timeAnnagram.push_back(b);
         }
         if(anagramm.empty()){
@@ -97,45 +67,10 @@ void deleteSomeElements(vector<string> & arrayforDelete, vector<string> & elemen
     string a,b;
     a = elementswhatNeedToDelete.front();
     while(! arrayforDelete.empty()){
-    int secondTest = 0;
-        int secondTest2 = 0;
-    int h = 0;
-    b = arrayforDelete.front();
-        for(int i = 0; i<3; i++){
-            int u = i+1;
-            if(u == 3){
-                u = 0;
-            }
-            if(a[i] == a[u] ){
-                secondTest = 1;
-                secondTest2++;
-            }
-            if(b[i] == b[u] ){
-                secondTest = 2;
-                secondTest2++;
-            }
-        }
-    for(int i=0; i<3; i++){
-        for(int j=0; j<3; j++){
-            if(priority(a[i]) == priority(b[j])){
-                h++;
-                break;
-            }
-        }
-    }
-        if(h != 3){
-            Swap.push_back(b);
+        b = arrayforDelete.front();
+        if(ifAnnagram(a, b)){
             arrayforDelete.erase(arrayforDelete.begin());
-        }else if(h == 3 && secondTest != 2 && secondTest !=1 ){
-             arrayforDelete.erase(arrayforDelete.begin());
-        }else if(h == 3 && secondTest == 2 && secondTest2 != 4){
-            arrayforDelete.erase(arrayforDelete.begin());
-        }else if(h == 3 && secondTest == 1){
-            Swap.push_back(b);
-            arrayforDelete.erase(arrayforDelete.begin());
-        }else if(h == 3 && secondTest2 == 6){
-            arrayforDelete.erase(arrayforDelete.begin());
-        }else if(h == 3 && secondTest == 2 && secondTest2 == 4){
+        }else{
             Swap.push_back(b);
             arrayforDelete.erase(arrayforDelete.begin());
         }
@@ -175,7 +110,7 @@ vector<string> findBiggestAnagramm(vector<string> anagrammn){
     string a = timeAnn[0];
     int sum = 0;
      int flag = 0;
-    for(int i=0 ; i<3; i++){
+    for(int i=0 ; i<sizeOfAWord; i++){
         sum+=priority(a[i]);
     }
 
@@ -189,7 +124,7 @@ vector<string> findBiggestAnagramm(vector<string> anagrammn){
             target = checkPair(anagrammn) - 1;
           deleteSomeElements(ann, timeAnn2);
             string b = timeAnn2[0];
-        for(int i=0 ; i<3; i++){
+        for(int i=0 ; i<sizeOfAWord; i++){
             sum2+=priority(b[i]);
         }
        
@@ -220,8 +155,12 @@ vector<string> findBiggestAnagramm(vector<string> anagrammn){
 
 vector<string> fullOff(){
     vector<string> anagramm;
-    string massiveOfmassive[] = {"eat","ate","ttt","aaa","nat","aaa","bat","ate"};
-    for(int i=0; i<8; i++){
+    string massiveOfmassive[] = {"eattt","attet","ttttt","taatt","nattt","aatat","battt","attet","aatat","ataat"};
+    string a = massiveOfmassive[0];
+    for(int i=0; a[i]; i++){
+        sizeOfAWord++;
+    }
+    for(int i=0; i<10; i++){
         anagramm.push_back(massiveOfmassive[i]);
     }
     vector<string> rightAnagramm;
@@ -244,4 +183,32 @@ int checkPair(vector<string> anagrammn){
         target++;
     }
     return target;
+}
+bool ifAnnagram(string a, string b){
+    if(a == b){
+        return true;
+    }else{
+        int h = 0;
+        int sum = 0;
+        int sum2 = 0;
+        for(int i=0; i<sizeOfAWord; i++){
+            for(int j=0; j<sizeOfAWord; j++){
+                if(priority(a[i]) == priority(b[j])){
+                    h++;
+                    break;
+                }
+            }
+        }
+        for(int i=0; i<sizeOfAWord; i++){
+            sum+=priority(a[i]);
+        }
+        for(int i=0; i<sizeOfAWord; i++){
+            sum2+=priority(b[i]);
+        }
+        if(sum == sum2 && h == sizeOfAWord){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
