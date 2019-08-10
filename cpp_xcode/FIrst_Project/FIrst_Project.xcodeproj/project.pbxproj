@@ -82,6 +82,8 @@
 		A54B282821E66CAA00937AC7 /* date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54B282721E66CAA00937AC7 /* date.cpp */; };
 		A55595C622B167B700DD13C7 /* num.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55595C522B167B700DD13C7 /* num.cpp */; };
 		A55595C922B2383A00DD13C7 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55595C822B2383A00DD13C7 /* Card.cpp */; };
+		A55C96E522F0AB3400113D2B /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55C96E422F0AB3400113D2B /* factorial.cpp */; };
+		A55C96E722F16A2100113D2B /* backpack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55C96E622F16A2100113D2B /* backpack.cpp */; };
 		A55CBFD921E7B3B900344542 /* bankAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFD821E7B3B900344542 /* bankAccount.cpp */; };
 		A55CBFDB21E90B9300344542 /* shop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFDA21E90B9300344542 /* shop.cpp */; };
 		A55CBFDD21EA56CC00344542 /* payment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55CBFDC21EA56CC00344542 /* payment.cpp */; };
@@ -115,6 +117,11 @@
 		A562804222905D9800F27497 /* df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A562804122905D9800F27497 /* df.cpp */; };
 		A562804422905F3800F27497 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A562804322905F3800F27497 /* main.cpp */; };
 		A5628048229178F000F27497 /* points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5628046229178F000F27497 /* points.cpp */; };
+		A5686B3C22EF5D79007D32B2 /* libsfml-audio.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5686B3A22EF5D15007D32B2 /* libsfml-audio.2.5.1.dylib */; };
+		A5686B4122EF5D7A007D32B2 /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5686B3D22EF5D79007D32B2 /* libsfml-graphics.2.5.1.dylib */; };
+		A5686B4222EF5D7A007D32B2 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5686B3E22EF5D7A007D32B2 /* libsfml-system.2.5.1.dylib */; };
+		A5686B4322EF5D7A007D32B2 /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5686B3F22EF5D7A007D32B2 /* libsfml-network.2.5.1.dylib */; };
+		A5686B4422EF5D7A007D32B2 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5686B4022EF5D7A007D32B2 /* libsfml-window.2.5.1.dylib */; };
 		A56ACFD3214431D9003FC212 /* nonDublicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD2214431D9003FC212 /* nonDublicate.cpp */; };
 		A56ACFD52144351C003FC212 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD42144351C003FC212 /* market.cpp */; };
 		A56ACFD72144ED75003FC212 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56ACFD62144ED75003FC212 /* question.cpp */; };
@@ -149,6 +156,7 @@
 		A56AD0122169ED33003FC212 /* Int.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56AD0112169ED33003FC212 /* Int.cpp */; };
 		A56AD01421725477003FC212 /* counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56AD01321725477003FC212 /* counter.cpp */; };
 		A56AD01621731153003FC212 /* PayCar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56AD01521731153003FC212 /* PayCar.cpp */; };
+		A56D3F5622F1A47800FFFE8F /* backpack1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56D3F5522F1A47800FFFE8F /* backpack1.cpp */; };
 		A574443321204484004836F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A574443221204484004836F1 /* main.cpp */; };
 		A574443B21204897004836F1 /* sorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A574443921204897004836F1 /* sorting.cpp */; };
 		A574443D21204B1F004836F1 /* sorting_word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A574443C21204B1F004836F1 /* sorting_word.cpp */; };
@@ -215,17 +223,29 @@
 		A586CDB22288194900B0B205 /* baseDMA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDB12288194900B0B205 /* baseDMA.cpp */; };
 		A586CDB422887B8400B0B205 /* Cd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDB322887B8400B0B205 /* Cd.cpp */; };
 		A586CDB8228C701C00B0B205 /* Cd2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A586CDB6228C701C00B0B205 /* Cd2.cpp */; };
+		A58B947222F5712A00F1CD3C /* findMAgicCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B947122F5712A00F1CD3C /* findMAgicCube.cpp */; };
+		A58B947422F59A0B00F1CD3C /* ordArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B947322F59A0B00F1CD3C /* ordArray.cpp */; };
+		A58B947622F5D24700F1CD3C /* 3Pyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B947522F5D24700F1CD3C /* 3Pyramid.cpp */; };
+		A58B947822F6E76B00F1CD3C /* towerUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B947722F6E76B00F1CD3C /* towerUp.cpp */; };
+		A58B947C22F6EB5100F1CD3C /* stackTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B947A22F6EB5100F1CD3C /* stackTriangle.cpp */; };
+		A58B947F22F6EB6C00F1CD3C /* Params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B947D22F6EB6C00F1CD3C /* Params.cpp */; };
+		A58B948222FDD80B00F1CD3C /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B948122FDD80B00F1CD3C /* ShellSort.cpp */; };
+		A58B948422FDE08000F1CD3C /* power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58B948322FDE08000F1CD3C /* power.cpp */; };
 		A5B209D722DE2FB30059DB0D /* Tstack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B209D522DE2FB30059DB0D /* Tstack.cpp */; };
 		A5B209DC22E0A1530059DB0D /* justForTestQuickTricks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B209DA22E0A1530059DB0D /* justForTestQuickTricks.cpp */; };
 		A5B209DE22E22B990059DB0D /* anagramm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B209DD22E22B990059DB0D /* anagramm.cpp */; };
 		A5B209E022E2FBCD0059DB0D /* anagrammm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B209DF22E2FBCD0059DB0D /* anagrammm.cpp */; };
 		A5B209E222E331800059DB0D /* anagrammmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B209E122E331800059DB0D /* anagrammmm.cpp */; };
 		A5B209E422E4433D0059DB0D /* recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B209E322E4433D0059DB0D /* recursion.cpp */; };
+		A5B8E1D322E72167001BF3BE /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8E1D222E72167001BF3BE /* MergeSort.cpp */; };
+		A5B8E1D722EC3AF4001BF3BE /* animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8E1D622EC3AF4001BF3BE /* animation.cpp */; };
+		A5B8E1D922ECA03B001BF3BE /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8E1D822ECA03B001BF3BE /* game.cpp */; };
 		A5B8FB86219890F2003A0976 /* statdata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FB85219890F2003A0976 /* statdata.cpp */; };
 		A5B8FB8921989506003A0976 /* constfu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FB8721989506003A0976 /* constfu.cpp */; };
 		A5B8FB8B2199E51D003A0976 /* boatFight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FB8A2199E51D003A0976 /* boatFight.cpp */; };
 		A5C1F98522AC15380030F05E /* justfortest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5C1F98422AC15380030F05E /* justfortest.cpp */; };
 		A5C1F98722AEAA420030F05E /* StoneScirosandRock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5C1F98622AEAA420030F05E /* StoneScirosandRock.cpp */; };
+		A5C889BD22E647A700481D7B /* GraphOrJustANode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5C889BC22E647A700481D7B /* GraphOrJustANode.cpp */; };
 		A5CC7AEF22D202DA009F16A2 /* justForTestMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CC7AEE22D202DA009F16A2 /* justForTestMacros.cpp */; };
 		A5CC7AF122D886E8009F16A2 /* PriorityQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CC7AF022D886E8009F16A2 /* PriorityQ.cpp */; };
 		A5CC7AF322D8DB94009F16A2 /* weirdThing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5CC7AF222D8DB94009F16A2 /* weirdThing.cpp */; };
@@ -365,6 +385,8 @@
 		A54B282721E66CAA00937AC7 /* date.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = date.cpp; sourceTree = "<group>"; };
 		A55595C522B167B700DD13C7 /* num.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = num.cpp; sourceTree = "<group>"; };
 		A55595C822B2383A00DD13C7 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		A55C96E422F0AB3400113D2B /* factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
+		A55C96E622F16A2100113D2B /* backpack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = backpack.cpp; sourceTree = "<group>"; };
 		A55CBFD821E7B3B900344542 /* bankAccount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bankAccount.cpp; sourceTree = "<group>"; };
 		A55CBFDA21E90B9300344542 /* shop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shop.cpp; sourceTree = "<group>"; };
 		A55CBFDC21EA56CC00344542 /* payment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = payment.cpp; sourceTree = "<group>"; };
@@ -401,6 +423,11 @@
 		A562804522905F4900F27497 /* Hand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
 		A5628046229178F000F27497 /* points.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = points.cpp; sourceTree = "<group>"; };
 		A5628047229178F000F27497 /* points.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = points.hpp; sourceTree = "<group>"; };
+		A5686B3A22EF5D15007D32B2 /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "Libraries/SFML/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
+		A5686B3D22EF5D79007D32B2 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "Libraries/SFML/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		A5686B3E22EF5D7A007D32B2 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "Libraries/SFML/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		A5686B3F22EF5D7A007D32B2 /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "Libraries/SFML/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		A5686B4022EF5D7A007D32B2 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "Libraries/SFML/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
 		A56ACFD2214431D9003FC212 /* nonDublicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonDublicate.cpp; sourceTree = "<group>"; };
 		A56ACFD42144351C003FC212 /* market.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
 		A56ACFD62144ED75003FC212 /* question.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
@@ -435,6 +462,7 @@
 		A56AD0112169ED33003FC212 /* Int.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Int.cpp; sourceTree = "<group>"; };
 		A56AD01321725477003FC212 /* counter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = counter.cpp; sourceTree = "<group>"; };
 		A56AD01521731153003FC212 /* PayCar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PayCar.cpp; sourceTree = "<group>"; };
+		A56D3F5522F1A47800FFFE8F /* backpack1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = backpack1.cpp; sourceTree = "<group>"; };
 		A574442F21204484004836F1 /* FIrst_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FIrst_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		A574443221204484004836F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A574443921204897004836F1 /* sorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sorting.cpp; sourceTree = "<group>"; };
@@ -504,6 +532,18 @@
 		A586CDB5228B21CA00B0B205 /* Cd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cd.h; sourceTree = "<group>"; };
 		A586CDB6228C701C00B0B205 /* Cd2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cd2.cpp; sourceTree = "<group>"; };
 		A586CDB7228C701C00B0B205 /* Cd2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cd2.hpp; sourceTree = "<group>"; };
+		A58B947022F5712300F1CD3C /* findMAgicCube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = findMAgicCube.cpp; path = ../../../../../../../Desktop/findMAgicCube.cpp; sourceTree = "<group>"; };
+		A58B947122F5712A00F1CD3C /* findMAgicCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = findMAgicCube.cpp; path = FIrst_Project/findMAgicCube.cpp; sourceTree = SOURCE_ROOT; };
+		A58B947322F59A0B00F1CD3C /* ordArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ordArray.cpp; sourceTree = "<group>"; };
+		A58B947522F5D24700F1CD3C /* 3Pyramid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3Pyramid.cpp; sourceTree = "<group>"; };
+		A58B947722F6E76B00F1CD3C /* towerUp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = towerUp.cpp; sourceTree = "<group>"; };
+		A58B947A22F6EB5100F1CD3C /* stackTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stackTriangle.cpp; sourceTree = "<group>"; };
+		A58B947B22F6EB5100F1CD3C /* stackTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stackTriangle.hpp; sourceTree = "<group>"; };
+		A58B947D22F6EB6C00F1CD3C /* Params.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Params.cpp; sourceTree = "<group>"; };
+		A58B947E22F6EB6C00F1CD3C /* Params.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Params.hpp; sourceTree = "<group>"; };
+		A58B948022F6ED0100F1CD3C /* Tstack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tstack.h; sourceTree = "<group>"; };
+		A58B948122FDD80B00F1CD3C /* ShellSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShellSort.cpp; sourceTree = "<group>"; };
+		A58B948322FDE08000F1CD3C /* power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = power.cpp; sourceTree = "<group>"; };
 		A5B209D522DE2FB30059DB0D /* Tstack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tstack.cpp; sourceTree = "<group>"; };
 		A5B209D622DE2FB30059DB0D /* Tstack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tstack.hpp; sourceTree = "<group>"; };
 		A5B209DA22E0A1530059DB0D /* justForTestQuickTricks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = justForTestQuickTricks.cpp; sourceTree = "<group>"; };
@@ -511,11 +551,15 @@
 		A5B209DF22E2FBCD0059DB0D /* anagrammm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = anagrammm.cpp; sourceTree = "<group>"; };
 		A5B209E122E331800059DB0D /* anagrammmm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = anagrammmm.cpp; sourceTree = "<group>"; };
 		A5B209E322E4433D0059DB0D /* recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
+		A5B8E1D222E72167001BF3BE /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		A5B8E1D622EC3AF4001BF3BE /* animation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animation.cpp; sourceTree = "<group>"; };
+		A5B8E1D822ECA03B001BF3BE /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
 		A5B8FB85219890F2003A0976 /* statdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = statdata.cpp; sourceTree = "<group>"; };
 		A5B8FB8721989506003A0976 /* constfu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = constfu.cpp; sourceTree = "<group>"; };
 		A5B8FB8A2199E51D003A0976 /* boatFight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boatFight.cpp; sourceTree = "<group>"; };
 		A5C1F98422AC15380030F05E /* justfortest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = justfortest.cpp; sourceTree = "<group>"; };
 		A5C1F98622AEAA420030F05E /* StoneScirosandRock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StoneScirosandRock.cpp; sourceTree = "<group>"; };
+		A5C889BC22E647A700481D7B /* GraphOrJustANode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphOrJustANode.cpp; sourceTree = "<group>"; };
 		A5CC7AEE22D202DA009F16A2 /* justForTestMacros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = justForTestMacros.cpp; sourceTree = "<group>"; };
 		A5CC7AF022D886E8009F16A2 /* PriorityQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQ.cpp; sourceTree = "<group>"; };
 		A5CC7AF222D8DB94009F16A2 /* weirdThing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = weirdThing.cpp; sourceTree = "<group>"; };
@@ -563,6 +607,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5686B4122EF5D7A007D32B2 /* libsfml-graphics.2.5.1.dylib in Frameworks */,
+				A5686B4222EF5D7A007D32B2 /* libsfml-system.2.5.1.dylib in Frameworks */,
+				A5686B4322EF5D7A007D32B2 /* libsfml-network.2.5.1.dylib in Frameworks */,
+				A5686B4422EF5D7A007D32B2 /* libsfml-window.2.5.1.dylib in Frameworks */,
+				A5686B3C22EF5D79007D32B2 /* libsfml-audio.2.5.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,7 +636,6 @@
 				A5DC49E7226CB87300D57AA5 /* Game.cpp */,
 				A5DC49E8226CB87300D57AA5 /* Game.hpp */,
 				A5DC49EA226CC25300D57AA5 /* DemoMain.cpp */,
-				A51B505621A9A81700E739CD /* Arrays */,
 			);
 			path = Game21;
 			sourceTree = "<group>";
@@ -595,6 +643,7 @@
 		A507376622DB85C4004CAE9A /* ADS */ = {
 			isa = PBXGroup;
 			children = (
+				A58B947022F5712300F1CD3C /* findMAgicCube.cpp */,
 				A507376722DB85E4004CAE9A /* linkStackApp.cpp */,
 			);
 			path = ADS;
@@ -636,6 +685,20 @@
 				A5B209DF22E2FBCD0059DB0D /* anagrammm.cpp */,
 				A5B209E122E331800059DB0D /* anagrammmm.cpp */,
 				A5B209E322E4433D0059DB0D /* recursion.cpp */,
+				A5C889BC22E647A700481D7B /* GraphOrJustANode.cpp */,
+				A5B8E1D222E72167001BF3BE /* MergeSort.cpp */,
+				A5B8E1D622EC3AF4001BF3BE /* animation.cpp */,
+				A5B8E1D822ECA03B001BF3BE /* game.cpp */,
+				A55C96E422F0AB3400113D2B /* factorial.cpp */,
+				A55C96E622F16A2100113D2B /* backpack.cpp */,
+				A56D3F5522F1A47800FFFE8F /* backpack1.cpp */,
+				A58B947122F5712A00F1CD3C /* findMAgicCube.cpp */,
+				A58B947322F59A0B00F1CD3C /* ordArray.cpp */,
+				A58B947522F5D24700F1CD3C /* 3Pyramid.cpp */,
+				A58B947722F6E76B00F1CD3C /* towerUp.cpp */,
+				A58B948122FDD80B00F1CD3C /* ShellSort.cpp */,
+				A58B948322FDE08000F1CD3C /* power.cpp */,
+				A58B947922F6EB1300F1CD3C /* Stack_Triangle */,
 				A507376622DB85C4004CAE9A /* ADS */,
 			);
 			path = "New Group";
@@ -650,7 +713,6 @@
 				A5B8FB8421988AC7003A0976 /* static_data */,
 			);
 			name = Arrays;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		A562803B228F0A9400F27497 /* Poker */ = {
@@ -667,11 +729,24 @@
 			path = Poker;
 			sourceTree = "<group>";
 		};
+		A5686B3922EF5D14007D32B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5686B3D22EF5D79007D32B2 /* libsfml-graphics.2.5.1.dylib */,
+				A5686B3F22EF5D7A007D32B2 /* libsfml-network.2.5.1.dylib */,
+				A5686B3E22EF5D7A007D32B2 /* libsfml-system.2.5.1.dylib */,
+				A5686B4022EF5D7A007D32B2 /* libsfml-window.2.5.1.dylib */,
+				A5686B3A22EF5D15007D32B2 /* libsfml-audio.2.5.1.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A574442621204484004836F1 = {
 			isa = PBXGroup;
 			children = (
 				A574443121204484004836F1 /* FIrst_Project */,
 				A574443021204484004836F1 /* Products */,
+				A5686B3922EF5D14007D32B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -686,6 +761,7 @@
 		A574443121204484004836F1 /* FIrst_Project */ = {
 			isa = PBXGroup;
 			children = (
+				A51B505621A9A81700E739CD /* Arrays */,
 				A5037DEF2261D1E2004878E0 /* Game21 */,
 				A5B8FB83219889E2003A0976 /* old_oop */,
 			);
@@ -702,6 +778,18 @@
 				A586CDB7228C701C00B0B205 /* Cd2.hpp */,
 			);
 			path = inheritance;
+			sourceTree = "<group>";
+		};
+		A58B947922F6EB1300F1CD3C /* Stack_Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				A58B947A22F6EB5100F1CD3C /* stackTriangle.cpp */,
+				A58B947B22F6EB5100F1CD3C /* stackTriangle.hpp */,
+				A58B947D22F6EB6C00F1CD3C /* Params.cpp */,
+				A58B947E22F6EB6C00F1CD3C /* Params.hpp */,
+				A58B948022F6ED0100F1CD3C /* Tstack.h */,
+			);
+			path = Stack_Triangle;
 			sourceTree = "<group>";
 		};
 		A5B8FB83219889E2003A0976 /* old_oop */ = {
@@ -1008,6 +1096,7 @@
 				A51B507721C00DAA00E739CD /* sybez.cpp in Sources */,
 				A5B8FB86219890F2003A0976 /* statdata.cpp in Sources */,
 				A55CBFF921FCCAAF00344542 /* woeker.cpp in Sources */,
+				A56D3F5622F1A47800FFFE8F /* backpack1.cpp in Sources */,
 				A57444A2213AFD6D004836F1 /* pasword.cpp in Sources */,
 				A574443B21204897004836F1 /* sorting.cpp in Sources */,
 				A5DC49E3226A3AF100D57AA5 /* House.cpp in Sources */,
@@ -1022,6 +1111,7 @@
 				A51B504A21A0916A00E739CD /* Bank.cpp in Sources */,
 				A5F25EF922C75ED9002EB7D7 /* Queue2.cpp in Sources */,
 				A574447A2131AA9A004836F1 /* funkz6.cpp in Sources */,
+				A58B948222FDD80B00F1CD3C /* ShellSort.cpp in Sources */,
 				A5CC7AF322D8DB94009F16A2 /* weirdThing.cpp in Sources */,
 				A5CF9D7A222BF1ED00B393BE /* simpleCritter.cpp in Sources */,
 				A574445221270E31004836F1 /* test4.cpp in Sources */,
@@ -1035,6 +1125,7 @@
 				A56ACFE5214C17F4003FC212 /* doktor_aj_bolit.cpp in Sources */,
 				A5B8FB8B2199E51D003A0976 /* boatFight.cpp in Sources */,
 				A55CC00E220EC88E00344542 /* goodBAdSwap.cpp in Sources */,
+				A58B947222F5712A00F1CD3C /* findMAgicCube.cpp in Sources */,
 				A56ACFEC214D68C0003FC212 /* minNetu.cpp in Sources */,
 				A5CC7AF622D8E195009F16A2 /* stackChar.cpp in Sources */,
 				A574445821271C27004836F1 /* pro.cpp in Sources */,
@@ -1100,6 +1191,7 @@
 				A5CF9D90223E390400B393BE /* Game_Lobby.cpp in Sources */,
 				A574443321204484004836F1 /* main.cpp in Sources */,
 				A55CC014220ED40800344542 /* TicTocTic.cpp in Sources */,
+				A5B8E1D922ECA03B001BF3BE /* game.cpp in Sources */,
 				A515B2AA229A58C100B3FB42 /* everything.cpp in Sources */,
 				A574445E212833BD004836F1 /* dvoicnaia.cpp in Sources */,
 				A55CC00C2206F75E00344542 /* referencing.cpp in Sources */,
@@ -1112,6 +1204,7 @@
 				A54B282421E207FE00937AC7 /* heroesInventory2.cpp in Sources */,
 				A5037DDB224D3BAB004878E0 /* simpleBoss.cpp in Sources */,
 				A57444BB213F022C004836F1 /* all_in_one.cpp in Sources */,
+				A58B947C22F6EB5100F1CD3C /* stackTriangle.cpp in Sources */,
 				A574446E213162C0004836F1 /* 2darray5.cpp in Sources */,
 				A55CBFE921F63E9800344542 /* find.cpp in Sources */,
 				A5317BF8227EDF92009A00ED /* bank2.cpp in Sources */,
@@ -1154,10 +1247,13 @@
 				A5C1F98722AEAA420030F05E /* StoneScirosandRock.cpp in Sources */,
 				A54B282221E2014F00937AC7 /* heroesInventory.cpp in Sources */,
 				A56AD00E21692679003FC212 /* circles.cpp in Sources */,
+				A55C96E722F16A2100113D2B /* backpack.cpp in Sources */,
 				A55CBFD921E7B3B900344542 /* bankAccount.cpp in Sources */,
+				A55C96E522F0AB3400113D2B /* factorial.cpp in Sources */,
 				A515B2AC229C447B00B3FB42 /* Figures.cpp in Sources */,
 				A574447221316B14004836F1 /* funkz2.cpp in Sources */,
 				A55CC0062205F39700344542 /* mad_lib.cpp in Sources */,
+				A5C889BD22E647A700481D7B /* GraphOrJustANode.cpp in Sources */,
 				A515B2B022A2E10100B3FB42 /* port.cpp in Sources */,
 				A515B2B222A3A82300B3FB42 /* ar.cpp in Sources */,
 				A55CBFEB21F7906F00344542 /* palindroma.cpp in Sources */,
@@ -1172,9 +1268,11 @@
 				A574447621318E57004836F1 /* funkz4.cpp in Sources */,
 				A56ACFFA215A9054003FC212 /* Minus6.cpp in Sources */,
 				A56ACFD52144351C003FC212 /* market.cpp in Sources */,
+				A5B8E1D322E72167001BF3BE /* MergeSort.cpp in Sources */,
 				A5CF9D7E223034CC00B393BE /* privateCritter.cpp in Sources */,
 				A5317BEB22737200009A00ED /* MyVector.cpp in Sources */,
 				A574448E2134543C004836F1 /* zadata310.cpp in Sources */,
+				A5B8E1D722EC3AF4001BF3BE /* animation.cpp in Sources */,
 				A574449221399D34004836F1 /* proc6.cpp in Sources */,
 				A56AD008216138BC003FC212 /* times.cpp in Sources */,
 				A5CF9D8A2235834900B393BE /* heap.cpp in Sources */,
@@ -1194,8 +1292,10 @@
 				A5317BFC228096C1009A00ED /* Cow.cpp in Sources */,
 				A51B506121AC60F400E739CD /* noPlace.cpp in Sources */,
 				A574444121204DC8004836F1 /* copy.cpp in Sources */,
+				A58B947422F59A0B00F1CD3C /* ordArray.cpp in Sources */,
 				A574445C21282C86004836F1 /* delitel.cpp in Sources */,
 				A54B281E21E0AEF700937AC7 /* emptyLine.cpp in Sources */,
+				A58B947822F6E76B00F1CD3C /* towerUp.cpp in Sources */,
 				A5317BFA22809601009A00ED /* hr%.cpp in Sources */,
 				A562803F228F0CBA00F27497 /* Hand.cpp in Sources */,
 				A5CF9D862234313800B393BE /* friendCritter.cpp in Sources */,
@@ -1215,10 +1315,12 @@
 				A574447C2132B2A1004836F1 /* powerA3.cpp in Sources */,
 				A56AD01021692853003FC212 /* engobj.cpp in Sources */,
 				A56ACFF221567160003FC212 /* container.cpp in Sources */,
+				A58B947622F5D24700F1CD3C /* 3Pyramid.cpp in Sources */,
 				A5CF9D78222BF00D00B393BE /* &&&a.cpp in Sources */,
 				A56AD00C216923EC003FC212 /* objpart.cpp in Sources */,
 				A574449E213AA03B004836F1 /* kn.cpp in Sources */,
 				A5037DDD224D3E5B004878E0 /* simpleBoss2.cpp in Sources */,
+				A58B948422FDE08000F1CD3C /* power.cpp in Sources */,
 				A56AD0122169ED33003FC212 /* Int.cpp in Sources */,
 				A574447E2132B466004836F1 /* powerA234.cpp in Sources */,
 				A5CF9D6C2229A09100B393BE /* swapPointerVersion.cpp in Sources */,
@@ -1248,6 +1350,7 @@
 				A5CF9D8222318AE300B393BE /* critter_farm.cpp in Sources */,
 				A586CDB422887B8400B0B205 /* Cd.cpp in Sources */,
 				A57444A8213BE559004836F1 /* ktulhu.cpp in Sources */,
+				A58B947F22F6EB6C00F1CD3C /* Params.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1294,6 +1397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Libraries/SFML/include";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1335,6 +1439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Libraries/SFML/include";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -1344,6 +1449,10 @@
 		A574443721204484004836F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/SFML/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1351,6 +1460,10 @@
 		A574443821204484004836F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/SFML/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -9,7 +9,10 @@
 //#include <iostream>
 //#include <vector>
 //using namespace std;
+//void funct();
 //int main(){
-//   
-//    
+//    funct();
+//}
+//void funct(){
+//    return;
 //}
