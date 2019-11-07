@@ -34,9 +34,11 @@
 //    int h = 1;//вычисление исходного значеия h
 //    int inner, outer;
 //    int temp;
-//    while(h <= nElems/3){
-//        h = h * 3 + 1; // 1 4 13 40 121 ...
-//    }
+////    while(h <= nElems/3){
+////        h = h * 3 + 1; // 1 4 13 40 121 ...
+////    }
+//    h = nElems;
+//    
 //    while(h>0) {
 //        for(outer = h; outer < nElems; outer++){
 //            temp = arr[outer];
